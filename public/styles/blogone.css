@@ -1,1 +1,102 @@
-/*# sourceMappingURL=blogone.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap");
+* {
+  margin: 0;
+  background-color: #146166;
+  color: #FFFFFF;
+}
+* body .container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+* body .container .circle {
+  width: 50%;
+  height: 80%;
+  border: #080E2F 1px solid;
+  border-radius: 50%;
+  background-color: #080E2F;
+  width: 40%;
+  box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.521);
+}
+* body .container .circle .header {
+  font-family: "Inter", sans-serif;
+  width: 50%;
+  margin: 14vh 0 0 6vw;
+}
+* body .container .circle .header h1 {
+  font-size: 1.8vw;
+  background-color: #080E2F;
+}
+* body .container .circle .header hr {
+  width: 28vw;
+}
+* body .container .circle .description {
+  font-family: "Inter", sans-serif;
+  margin: 4vh 0 0 6vw;
+  width: 70%;
+}
+* body .container .circle .description .descrip2 {
+  font-size: 1vw;
+  background-color: #080E2F;
+}
+* body .container .circle .description p {
+  padding: 0.3vw 0 0 0;
+  background-color: #080E2F;
+  font-size: 0.7vw;
+}
+* body .container .circle .description p b {
+  background-color: #080E2F;
+}
+* body .container .circle .content {
+  font-family: "Inter", sans-serif;
+  background-color: #080E2F;
+  margin: 5vh 0 0 6vw;
+  width: 70%;
+}
+* body .container .circle .shares {
+  background-color: #080E2F;
+  margin: 5vh 0 0 14vw;
+  text-align: center;
+  width: 40%;
+  display: flex;
+}
+* body .container .circle .shares a {
+  background-color: #080E2F;
+}
+* body .container .circle .shares a img {
+  background-color: #080E2F;
+}
+* body .container .circle .shares a #twitter {
+  height: 5vh;
+}
+* body .container .circle .shares a #linkedin {
+  height: 5vh;
+  margin: 0 0 0 2vw;
+}
+* body .container .circle .shares a #share {
+  height: 5vh;
+  margin: -0.4vh 0 0 2vw;
+}
+* body .container .circle .arrow {
+  background-color: #080E2F;
+  margin: 6vh 0 0 17vw;
+  width: 20%;
+}
+* body .container .circle .arrow a {
+  background-color: #080E2F;
+  font-family: "Inter", sans-serif;
+  font-size: 1vw;
+  text-decoration: none;
+  display: flex;
+}
+* body .container .circle .arrow a img {
+  width: 2vw;
+  height: 2vw;
+  background-color: #080E2F;
+}
+* body .container .circle .arrow a p {
+  background-color: #080E2F;
+  margin: 0.7vh 0 0 0;
+  font-size: 1vw;
+}/*# sourceMappingURL=blogone.css.map */

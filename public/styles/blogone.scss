@@ -1,0 +1,116 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap');
+// COLORS
+$mainblue: #080E2F;
+$skillswhite: #FFFFFF;
+$aboutgreen: #0E4946;
+$skillsteal: #146166;
+
+
+* {
+    margin: 0;
+    background-color: $skillsteal;
+    color: $skillswhite;
+    body {
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .circle {
+                width: 50%;
+                height: 80%;
+                border: $mainblue 1px solid;
+                border-radius: 50%;
+                background-color: $mainblue;
+                width: 40%;
+                box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.521);
+                .header {
+                    font-family: 'Inter', sans-serif;
+                    width: 50%;
+                    margin: 14vh 0 0 6vw;
+                    h1 {
+                        font-size: 1.8vw;
+                        background-color: $mainblue;
+                    }
+                    hr {
+                        width: 28vw;
+                    }
+                }
+                .description {
+                    font-family: 'Inter', sans-serif;
+                    margin: 4vh 0 0 6vw;
+                    width: 70%;
+                    .descrip2 {
+                        font-size: 1vw;
+                        background-color: $mainblue;
+                    }
+                    p {
+                        padding: .3vw 0 0 0;
+                        background-color: $mainblue;
+                        font-size: .7vw;
+                        b {
+                            background-color: $mainblue;
+                        }
+                    }
+                }
+                .content {
+                    font-family: 'Inter', sans-serif;
+                    background-color: $mainblue;
+                    margin: 5vh 0 0 6vw;
+                    width: 70%;
+                }
+                .shares {
+                    background-color: $mainblue;
+                    // CENTER BOTTOM
+                    // margin: 5vh 0 0 16vw;
+                    // LEFT MOST
+                    // margin: 1vh 0 0 5.8vw;
+                    margin: 5vh 0 0 14vw;
+                    text-align: center;
+                    width: 40%;
+                    display: flex;
+                    a {
+                        background-color: $mainblue;
+                        img {
+                            background-color: $mainblue;
+                        }
+                        #twitter {
+                            height: 5vh;
+                        }
+                        #linkedin {
+                            height: 5vh;
+                            margin: 0 0 0 2vw;
+                        }
+                        #share {
+                            height: 5vh;
+                            margin: -.4vh 0 0 2vw;
+                        }
+                    } 
+                }
+                .arrow {
+                    background-color: $mainblue;
+                    margin: 6vh 0 0 17vw;
+                    width: 20%;
+                    a {
+                        background-color: $mainblue;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 1vw;
+                        text-decoration: none;
+                        display: flex;
+                        img {
+                           width: 2vw;
+                           height: 2vw; 
+                           background-color: $mainblue;   
+                        }
+                        p {
+                            background-color: $mainblue;
+                            margin: .7vh 0 0 0;
+                            font-size: 1vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
