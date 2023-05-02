@@ -23,6 +23,17 @@ $thirdblue: rgb(85, 85, 255);
             background-color: $mainblue;
             color: $skillswhite;
             height: 100vh;
+            .tophome {
+                .logo {
+                    img {
+                        width: 10vw;
+                        height: 10vw;
+                    }
+                }
+                .navbar {
+                    display: inline;
+                }
+            }
         }
         .skills {
             background-color: $skillsteal;

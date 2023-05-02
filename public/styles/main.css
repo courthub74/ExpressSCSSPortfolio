@@ -8,6 +8,13 @@
   color: #FFFFFF;
   height: 100vh;
 }
+* .container .home .tophome .logo img {
+  width: 10vw;
+  height: 10vw;
+}
+* .container .home .tophome .navbar {
+  display: inline;
+}
 * .container .skills {
   background-color: #146166;
   color: #FFFFFF;

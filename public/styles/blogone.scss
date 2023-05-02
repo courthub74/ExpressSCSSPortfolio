@@ -27,11 +27,15 @@ $skillsteal: #146166;
                 box-shadow: 12px 12px 10px rgba(0, 0, 0, 0.521);
                 .header {
                     font-family: 'Inter', sans-serif;
-                    width: 50%;
+                    // width: 50%;
+                    width: 100%;
                     margin: 14vh 0 0 6vw;
                     h1 {
                         font-size: 1.8vw;
                         background-color: $mainblue;
+                        background-color: $skillsteal;
+                        // border: 1px white solid;
+                        border-radius: 10px;
                     }
                     hr {
                         width: 28vw;
@@ -41,6 +45,7 @@ $skillsteal: #146166;
                     font-family: 'Inter', sans-serif;
                     margin: 4vh 0 0 6vw;
                     width: 70%;
+                    // width: 100%;
                     .descrip2 {
                         font-size: 1vw;
                         background-color: $mainblue;
@@ -56,6 +61,7 @@ $skillsteal: #146166;
                 }
                 .content {
                     font-family: 'Inter', sans-serif;
+                    font-size: .9vw;
                     background-color: $mainblue;
                     margin: 5vh 0 0 6vw;
                     width: 70%;
@@ -77,13 +83,16 @@ $skillsteal: #146166;
                         }
                         #twitter {
                             height: 5vh;
+                            width: 5vh;
                         }
                         #linkedin {
                             height: 5vh;
+                            width: 5vh;
                             margin: 0 0 0 2vw;
                         }
                         #share {
                             height: 5vh;
+                            width: 5vh;
                             margin: -.4vh 0 0 2vw;
                         }
                     } 

@@ -21,12 +21,14 @@
 }
 * body .container .circle .header {
   font-family: "Inter", sans-serif;
-  width: 50%;
+  width: 100%;
   margin: 14vh 0 0 6vw;
 }
 * body .container .circle .header h1 {
   font-size: 1.8vw;
   background-color: #080E2F;
+  background-color: #146166;
+  border-radius: 10px;
 }
 * body .container .circle .header hr {
   width: 28vw;
@@ -50,6 +52,7 @@
 }
 * body .container .circle .content {
   font-family: "Inter", sans-serif;
+  font-size: 0.9vw;
   background-color: #080E2F;
   margin: 5vh 0 0 6vw;
   width: 70%;
@@ -69,13 +72,16 @@
 }
 * body .container .circle .shares a #twitter {
   height: 5vh;
+  width: 5vh;
 }
 * body .container .circle .shares a #linkedin {
   height: 5vh;
+  width: 5vh;
   margin: 0 0 0 2vw;
 }
 * body .container .circle .shares a #share {
   height: 5vh;
+  width: 5vh;
   margin: -0.4vh 0 0 2vw;
 }
 * body .container .circle .arrow {
