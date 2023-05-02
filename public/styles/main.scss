@@ -16,14 +16,18 @@ $secondblue: #6287cf;
 $thirdblue: rgb(85, 85, 255);
 
 * {
-    font-family: 'Inter', sans-serif;
     margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
     .container {
         .home {
             background-color: $mainblue;
             color: $skillswhite;
             height: 100vh;
+            font-family: 'Inter', sans-serif;
             .tophome {
+                display: flex;
+                justify-content: space-between;
                 .logo {
                     img {
                         width: 10vw;
@@ -31,7 +35,26 @@ $thirdblue: rgb(85, 85, 255);
                     }
                 }
                 .navbar {
-                    display: inline;
+                    ul {
+                        margin: 8vh 5vw 0 0;
+                        li {
+                            display: inline;
+                            padding: 0 1vw 0 0;
+                            font-size: 1.2vw;
+                            font-weight: bold;
+                            a {
+                                cursor: pointer;
+                                text-decoration: none;
+                                color: $skillswhite;
+                            }
+                            #selected {
+                                background-color: white;
+                                color: $mainblue;
+                                border-radius: 5px;
+                                padding: .4vw;
+                            }
+                        }
+                    }
                 }
             }
         }
@@ -39,6 +62,7 @@ $thirdblue: rgb(85, 85, 255);
             background-color: $skillsteal;
             color: $skillswhite;
             height: 120vh;
+            font-family: 'Inter', sans-serif;
         }
         .about {
             background-color: $aboutgreen;
