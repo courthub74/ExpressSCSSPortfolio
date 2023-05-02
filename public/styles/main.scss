@@ -1,0 +1,33 @@
+// FONTS
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Julius+Sans+One&family=Roboto:wght@900&display=swap');
+// COLORS
+$mainblue: #080E2F;
+$skillswhite: #FFFFFF;
+$aboutgreen: #0E4946;
+$skillsteal: #146166;
+$iconblock: #023430;
+$languagewhite: #d9e2e2;
+$techcirclegreen: #05607D;
+$hoverfonts: #B7BCD6;
+
+// FOOTER
+$firstblue: #58a6ff;
+$secondblue: #6287cf;
+$thirdblue: rgb(85, 85, 255);
+
+* {
+    font-family: 'Inter', sans-serif;
+    margin: 0;
+    .container {
+        .home {
+            background-color: $mainblue;
+            color: $skillswhite;
+            height: 100vh;
+        }
+        .skills {
+            background-color: $skillsteal;
+            color: $skillswhite;
+            height: 120vh;
+        }
+    }
+}
