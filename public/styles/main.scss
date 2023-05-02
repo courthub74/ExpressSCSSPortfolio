@@ -29,5 +29,30 @@ $thirdblue: rgb(85, 85, 255);
             color: $skillswhite;
             height: 120vh;
         }
+        .about {
+            background-color: $aboutgreen;
+            color: $skillswhite;
+            height: 120vh;
+        }
+        .portfolio {
+            background-color: $mainblue;
+            color: $skillswhite;
+            height: 120vh;
+        }
+        .experience {
+            background-color: $aboutgreen;
+            color: $skillswhite;
+            height: 120vh;
+        }
+        .blog {
+            background-color: $skillsteal;
+            color: $skillswhite;
+            height: 120vh;
+        }
+        .contact {
+            background-color: $mainblue;
+            color: $skillswhite;
+            height: 100vh;
+        }
     }
 }

@@ -12,4 +12,29 @@
   background-color: #146166;
   color: #FFFFFF;
   height: 120vh;
+}
+* .container .about {
+  background-color: #0E4946;
+  color: #FFFFFF;
+  height: 120vh;
+}
+* .container .portfolio {
+  background-color: #080E2F;
+  color: #FFFFFF;
+  height: 120vh;
+}
+* .container .experience {
+  background-color: #0E4946;
+  color: #FFFFFF;
+  height: 120vh;
+}
+* .container .blog {
+  background-color: #146166;
+  color: #FFFFFF;
+  height: 120vh;
+}
+* .container .contact {
+  background-color: #080E2F;
+  color: #FFFFFF;
+  height: 100vh;
 }/*# sourceMappingURL=main.css.map */
