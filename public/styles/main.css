@@ -41,13 +41,306 @@
 * .container .skills {
   background-color: #146166;
   color: #FFFFFF;
-  height: 120vh;
+  height: 110vh;
   font-family: "Inter", sans-serif;
+}
+* .container .skills .topskills {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1vh 0 0 0;
+}
+* .container .skills .topskills h1 {
+  font-size: 5vw;
+  margin: 4vh 4vw 0 2vw;
+}
+* .container .skills .topskills .navbar ul {
+  margin: 8vh 5vw 0 0;
+}
+* .container .skills .topskills .navbar ul li {
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+* .container .skills .topskills .navbar ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* .container .skills .topskills .navbar ul li #selected {
+  background-color: white;
+  color: #146166;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* .container .skills .pageskills {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 8vh 0 0 0;
+}
+* .container .skills .pageskills .skillslist .skillscontent {
+  margin: 0 0 0 10vw;
+}
+* .container .skills .pageskills .skillslist .skillscontent .list {
+  background-color: #080E2F;
+  color: white;
+  font-family: "Julius Sans One", sans-serif;
+  font-size: 1vw;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 22vw;
+  height: 22vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.521);
+}
+* .container .skills .pageskills .skillslist .skillscontent .list p {
+  padding: 1vh 1vh;
+}
+* .container .skills .pageskills .vl {
+  border: 1px solid white;
+  height: 55vh;
+}
+* .container .skills .pageskills .skillicons .front {
+  margin: 0 0 4vh 0;
+}
+* .container .skills .pageskills .skillicons .front .icons {
+  display: flex;
+  gap: 15px;
+  margin: 0 10vw 0 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock {
+  background-color: #080E2F;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.521);
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #html {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #html img {
+  width: 3.8vw;
+  height: 7.6vh;
+  margin: 3.5vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #html P {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 0.5vh 0 3vh 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #css {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #css img {
+  width: 3.8vw;
+  height: 7.6vh;
+  margin: 3.5vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #css P {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 0.5vh 0 3vh 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #js {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #js img {
+  width: 2.8vw;
+  height: 5.5vh;
+  border-radius: 5px;
+  margin: 4vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #js P {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 1.3vh 0 3vh 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #react img {
+  width: 3vw;
+  height: 5.5vh;
+  margin: 1vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #react p {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 1.2vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #sass {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #sass img {
+  width: 3.7vw;
+  height: 4.6vh;
+  margin: 1vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .front .icons .iconblock #sass p {
+  font-size: 1.5vh;
+  opacity: 0.6;
+  margin: 1.7vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .back .icons {
+  display: flex;
+  gap: 15px;
+  margin: 0 10vw 0 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock {
+  background-color: #080E2F;
+  width: 7vw;
+  height: 7vw;
+  border-radius: 50%;
+  box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.521);
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #python {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #python img {
+  width: 4vw;
+  height: 8vh;
+  margin: -0.5vh 0 1vh 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #python p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: -0.7vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #django {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #django img {
+  width: 4vw;
+  height: 7.5vh;
+  margin: -0.1vh 0.3vw 0 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #django p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: -0.1vh 0 0 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #nodejs {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #nodejs img {
+  width: 2.8vw;
+  height: 6vh;
+  margin: 1vh 0 1vh 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #nodejs p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: 0 0 1vh 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #mongodb {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #mongodb img {
+  width: 1.5vw;
+  height: 7.3vh;
+  margin: 0.5vw 0 1vh 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #mongodb p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: 0 0 2vh 0;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #firebase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #firebase img {
+  width: 3.5vw;
+  height: 7.5vh;
+  margin: 1vh 0 1.8vh 0.2vw;
+  margin-bottom: 1vh;
+  margin-left: 0.2vw;
+}
+* .container .skills .pageskills .skillicons .back .icons .iconblock #firebase p {
+  font-size: 1.6vh;
+  opacity: 0.6;
+  margin: 0 0 2vh 0;
 }
 * .container .about {
   background-color: #0E4946;
   color: #FFFFFF;
-  height: 120vh;
+  height: 110vh;
+  font-family: "Inter", sans-serif;
+}
+* .container .about .abouttop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1vh 0 0 0;
+}
+* .container .about .abouttop h1 {
+  font-size: 5vw;
+  margin: 4vh 4vw 0 2vw;
+}
+* .container .about .abouttop .navbar ul {
+  margin: 8vh 5vw 0 0;
+}
+* .container .about .abouttop .navbar ul li {
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+* .container .about .abouttop .navbar ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* .container .about .abouttop .navbar ul li #selected {
+  background-color: white;
+  color: #0E4946;
+  border-radius: 5px;
+  padding: 0.4vw;
 }
 * .container .portfolio {
   background-color: #080E2F;

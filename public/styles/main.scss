@@ -10,6 +10,9 @@ $languagewhite: #d9e2e2;
 $techcirclegreen: #05607D;
 $hoverfonts: #B7BCD6;
 
+// BOX SHADOW
+$boxshadowcircles: rgba(0, 0, 0, 0.521);
+
 // FOOTER
 $firstblue: #58a6ff;
 $secondblue: #6287cf;
@@ -61,13 +64,331 @@ $thirdblue: rgb(85, 85, 255);
         .skills {
             background-color: $skillsteal;
             color: $skillswhite;
-            height: 120vh;
+            height: 110vh;
             font-family: 'Inter', sans-serif;
+            .topskills {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                padding: 1vh 0 0 0;
+                h1 {
+                    font-size: 5vw;
+                    margin: 4vh 4vw 0 2vw;
+                }
+                .navbar {
+                    ul {
+                        margin: 8vh 5vw 0 0;
+                        li {
+                            display: inline;
+                            padding: 0 1vw 0 0;
+                            font-size: 1.2vw;
+                            font-weight: bold;
+                            a {
+                                cursor: pointer;
+                                text-decoration: none;
+                                color: $skillswhite;
+                            }
+                            #selected {
+                                background-color: white;
+                                color: $skillsteal;
+                                border-radius: 5px;
+                                padding: .4vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .pageskills {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                margin: 8vh 0 0 0;
+                .skillslist {
+                    .skillscontent {
+                        margin: 0 0 0 10vw;
+                        .list {
+                            background-color: $mainblue;
+                            color: white;
+                            font-family: 'Julius Sans One', sans-serif;
+                            font-size: 1vw;
+                            font-weight: bold;
+                            border-radius: 50%;
+                            width: 22vw;
+                            height: 22vw;
+                            display: flex;
+                            flex-direction: column;
+                            align-items: center;
+                            justify-content: center;
+                            text-align: center;
+                            box-shadow: 8px 8px 8px $boxshadowcircles;
+                            p {
+                                padding: 1vh 1vh;
+                            }
+                        }
+                    }
+                }
+                .vl {
+                    border: 1px solid white;
+                    height: 55vh;
+                }
+                // The Icons of skill
+                // Frontent Icons
+                .skillicons {
+                    .front {
+                        // just there to list as frontend
+                        margin: 0 0 4vh 0;
+                        .icons {
+                            display: flex;
+                            gap: 15px;
+                            margin: 0 10vw 0 0;
+                            .iconblock {
+                                background-color: $mainblue;
+                                width: 7vw;
+                                height: 7vw;
+                                border-radius: 50%;
+                                box-shadow: 8px 8px 8px $boxshadowcircles;
+                                    #html {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.8vw;
+                                            height: 7.6vh;
+                                            margin: 3.5vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.5vh;
+                                            opacity: .6;
+                                            margin: .5vh 0 3vh 0;
+                                        }
+                                    }
+                                    #css {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.8vw;
+                                            height: 7.6vh;
+                                            margin: 3.5vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.5vh;
+                                            opacity: .6;
+                                            margin: .5vh 0 3vh 0;
+                                            // animation-name: moveInCenter2;
+                                            // animation-duration: 5s;
+                                        }
+                                    }
+                                    #js {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 2.8vw;
+                                            height: 5.5vh;
+                                            border-radius: 5px;
+                                            margin: 4vh 0 0 0;
+                                        }
+                                        P {
+                                            font-size: 1.5vh;
+                                            opacity: .6;
+                                            margin: 1.3vh 0 3vh 0;
+                                        }
+                                    }
+                                    #react {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3vw;
+                                            height: 5.5vh;
+                                            margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.5vh;
+                                            opacity: .6;
+                                            margin: 1.2vh 0 0 0;
+                                        }
+                                    }
+                                    #sass {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.7vw;
+                                            height: 4.6vh;
+                                            margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.5vh;
+                                            opacity: .6;
+                                            margin: 1.7vh 0 0 0;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .back {
+                            .icons {
+                                display: flex;
+                                gap: 15px;
+                                margin: 0 10vw 0 0;
+                                .iconblock {
+                                    background-color: $mainblue;
+                                    width: 7vw;
+                                    height: 7vw;
+                                    border-radius: 50%;
+                                    box-shadow: 8px 8px 8px $boxshadowcircles;
+                                    #python {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 4vw;
+                                            height: 8vh;
+                                            margin: -.5vh 0 1vh 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            opacity: .6;
+                                            margin: -.7vh 0 0 0;
+                                            // animation-name: moveInCenter2;
+                                            // animation-duration: 5s;
+                                        } 
+                                    }
+                                    #django {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 4vw;
+                                            height: 7.5vh;
+                                            margin: -.1vh .3vw 0 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            opacity: .6;
+                                            margin: -.1vh 0 0 0;
+                                            // animation-name: moveInCenter2;
+                                            // animation-duration: 5s;
+                                        } 
+                                    }
+                                    #nodejs {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 2.8vw;
+                                            height: 6vh;
+                                            margin: 1vh 0 1vh 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            opacity: .6;
+                                            margin: 0 0 1vh 0;
+                                            // animation-name: moveInCenter2;
+                                            // animation-duration: 5s;
+                                        }
+                                    }
+                                    #mongodb {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 1.5vw;
+                                            height: 7.3vh;
+                                            margin: .5vw 0 1vh 0;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            opacity: .6;
+                                            margin: 0 0 2vh 0;
+                                            // animation-name: moveInCenter2;
+                                            // animation-duration: 5s;
+                                        }
+                                    }
+                                    #firebase {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 3.5vw;
+                                            height: 7.5vh;
+                                            margin: 1vh 0 1.8vh .2vw;
+                                            margin-bottom: 1vh;
+                                            margin-left: .2vw;
+                                        }
+                                        p {
+                                            font-size: 1.6vh;
+                                            opacity: .6;
+                                            margin: 0 0 2vh 0;
+                                            // animation-name: moveInCenter2;
+                                            // animation-duration: 5s;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
         }
         .about {
             background-color: $aboutgreen;
             color: $skillswhite;
-            height: 120vh;
+            height: 110vh;
+            font-family: 'Inter', sans-serif;
+            .abouttop {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                padding: 1vh 0 0 0;
+                h1 {
+                    font-size: 5vw;
+                    margin: 4vh 4vw 0 2vw;
+                }
+                .navbar {
+                    ul {
+                        margin: 8vh 5vw 0 0;
+                        li {
+                            display: inline;
+                            padding: 0 1vw 0 0;
+                            font-size: 1.2vw;
+                            font-weight: bold;
+                            a {
+                                cursor: pointer;
+                                text-decoration: none;
+                                color: $skillswhite;
+                            }
+                            #selected {
+                                background-color: white;
+                                color: $aboutgreen;
+                                border-radius: 5px;
+                                padding: .4vw;
+                            }
+                        }
+                    }
+                }
+            }
         }
         .portfolio {
             background-color: $mainblue;
