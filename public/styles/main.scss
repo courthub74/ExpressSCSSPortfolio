@@ -389,6 +389,47 @@ $thirdblue: rgb(85, 85, 255);
                     }
                 }
             }
+            .infoblock {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                .info {
+                    text-align: left;
+                    padding-top: 10vh;
+                    width: 30%;
+                    font-size: 1svw;
+                    line-height: 2.5;
+                    margin-top: 5vh;
+                    .resume {
+                            // background-color: yellow;
+                            margin-top: 10vh;
+                            display: flex;
+                            justify-content: center;
+                            gap: 1vw;
+                            border: 1px solid white;
+                            border-radius: 50px;
+                            background-color: $skillswhite;
+                        a {
+                            text-decoration: none;
+                            color: $aboutgreen;
+                            font-size: 2vh;
+                            font-weight: bold;
+                            img {
+                                width: 1vw;
+                                height: 1vw;
+                                margin: 1vh 0 0 0;
+                                // background-color: pink;
+                            }
+                        }
+                        img {
+                            width: 2vw;
+                            height: 2vw;
+                            margin: .5vh 0 0 0;
+                            // background-color: pink;
+                        }
+                    }
+                } 
+            }
         }
         .portfolio {
             background-color: $mainblue;
