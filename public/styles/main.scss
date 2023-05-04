@@ -1208,5 +1208,159 @@ $thirdblue: rgb(85, 85, 255);
                 }
             }
         }
+        .contactcontainer {
+            form {
+                display: flex;
+                gap: 7vw;
+                .nameemaildiv {
+                    margin: 10vh 0 0 40vh;
+                    .name {
+                        p {
+                            font-size: 1.5vw;
+                        }
+                        input {
+                            width: 24vw;
+                            height: 6vh;
+                            border: none;
+                            border-radius: 5px;
+                            background-color: $mainblue;
+                            border: 1px solid white;
+                                color: white;
+                        }
+                    }
+                    .email {
+                        p {
+                            font-size: 1.5vw;
+                        }
+                        input {
+                            width: 24vw;
+                            height: 6vh;
+                            border: none;
+                            border-radius: 5px;
+                            background-color: $mainblue;
+                            border: 1px solid white;
+                            color: white;
+                        }
+                    }
+                    .socials {
+                        display: flex;
+                        align-items: center;
+                        justify-content: left;
+                        margin: 5vh 0 0 2vw;
+                        #github {
+                            margin: 0 1vw 0 0;
+                            img {
+                                width: 2.8vw;
+                                height: 2.8vw;
+                            }
+                        }
+                        #linkedin {
+                            margin: 0 1vw 0 0;
+                            img {
+                                width: 3.7vw;
+                                height: 3.7vw;
+                            }
+                        }
+                        #twitter {
+                            margin: 0 .5vw 0 -.4vw;
+                            img {
+                                width: 3.5vw;
+                                height: 3.5vw;
+                            }
+                        }
+                        #instagram {
+                            margin: 0 .9vw 0 -.01vw;
+                            img {
+                                width: 4vw;
+                                height: 4vw;
+                            }
+                        }
+                        #facebook {
+                            img {
+                                width: 2.9vw;
+                                height: 2.9vw;
+                            }
+                        }
+                    }
+                }
+                .messageandsubmitdiv {
+                    margin: 10vh 0 0 1vw;
+                    .message {
+                        // animation-name: moveInCenter;
+                        // animation-duration: 1s;
+                        p {
+                            font-size: 1.5vw;
+                        }
+                        input {
+                            width: 24vw;
+                            height: 23vh;
+                            border: none;
+                            border-radius: 5px;
+                            background-color: $mainblue;
+                            border: 1px solid white;
+                            color: white;
+                            text-align: center;
+                        }
+                    }
+                    .submit {
+                        // background-color: yellowgreen;
+                        margin: 6vh 0 0 0;
+                        // animation-name: moveInCenter;
+                        // animation-duration: 1s;
+                        button {
+                            width: 100%;
+                            cursor: pointer;
+                            height: 5vh;
+                            background-color: $mainblue;
+                            color: white;
+                            border: 1px solid white;
+                            border-radius: 5px;
+                            font-size: 1.2vw;
+                        }
+                    }
+                }
+            }
+        }
+        footer {
+            // background-color: yellowgreen;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            margin: 18vh 7vw 0 0;
+            small {
+                display: flex;
+                justify-content: center;
+                gap: .7vw;
+                // background-color: yellowgreen;
+                img {
+                    opacity: .5;
+                    width: 1.8vw;
+                    height: 1.8vw;
+                    margin: .5vh 0 0 0;
+                    // background-color: yellowgreen;
+                    // padding: 1vh 0 0 0;
+                    // margin: 1vh 0 0 0;
+                }
+                .smallprint {
+                    display: flex;
+                    align-items: center;
+                    gap: 8px;
+                    p {
+                        opacity: .5;
+                    }
+                    a {
+                        // color: #58a6ff;
+                        color: #3b66bb;
+                    }
+                    span {
+                        #phone {
+                            margin: 1vh 0 0 0;
+                            // background-color: green;
+                        }
+                    }
+                }
+            }
+        }
     }
 }
