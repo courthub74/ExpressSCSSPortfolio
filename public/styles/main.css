@@ -383,19 +383,665 @@
 * .container .portfolio {
   background-color: #080E2F;
   color: #FFFFFF;
-  height: 120vh;
+  height: 110vh;
+  font-family: "Inter", sans-serif;
 }
-* .container .experience {
+* .container .portfolio .portfoliotop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1vh 0 0 0;
+}
+* .container .portfolio .portfoliotop h1 {
+  font-size: 5vw;
+  margin: 4vh 4vw 0 2vw;
+}
+* .container .portfolio .portfoliotop .navbar ul {
+  margin: 8vh 5vw 0 0;
+}
+* .container .portfolio .portfoliotop .navbar ul li {
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+* .container .portfolio .portfoliotop .navbar ul li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* .container .portfolio .portfoliotop .navbar ul li #selected {
+  background-color: white;
+  color: #080E2F;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* .container .portfolio .portcontainer {
+  display: flex;
+  flex-direction: column;
+}
+* .container .portfolio .portcontainer .appcontainer {
+  display: flex;
+  margin: 10vh 0 0 7vw;
+  gap: 5vw;
+}
+* .container .portfolio .portcontainer .app1 {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* .container .portfolio .portcontainer .app1 .app1cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 10px;
+  height: 60vh;
+  width: 25vw;
+  position: absolute;
+  cursor: pointer;
+  background-color: #080E2F;
+}
+* .container .portfolio .portcontainer .app1 .app1cover img {
+  width: 14vw;
+  height: 14vw;
+}
+* .container .portfolio .portcontainer .app1 .app1cover p {
+  color: white;
+  font-size: 3.5vh;
+  font-family: "Julius Sans One", sans-serif;
+}
+* .container .portfolio .portcontainer .app1 .app1cover:hover {
+  opacity: 0;
+  transition: 1s;
+}
+* .container .portfolio .portcontainer .app1 .app1content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100vh;
+  margin-top: 8vh;
+  color: #B7BCD6;
+}
+* .container .portfolio .portcontainer .app1 .app1content .app1description {
+  text-align: left;
+  font-size: 1vw;
+  width: 85%;
+  margin: 0 0 0 -0.8vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies {
+  display: flex;
+  flex-direction: column;
+  margin: 5vh 4.5vw 3vh 0;
+  gap: 2vh;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies h3 {
+  margin: 0 0 1vh 0;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles {
+  margin: -1.5vh 0 2vh 0;
+  display: flex;
+  gap: 1vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle {
+  border: 1px solid #05607D;
+  border-radius: 50%;
+  background-color: #05607D;
+  width: 5vw;
+  height: 5vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react img {
+  margin: 0 0 0 0;
+  width: 2.3vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #react p {
+  font-size: 0.6vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express img {
+  margin: 1vh 0 0 0;
+  width: 1.8vw;
+  height: 1.8vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #express p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase img {
+  margin: 1vh 0 -1vh 0;
+  width: 2.2vw;
+  height: 2.2vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .apptechnologies .apptechcircles .apptechcircle #firebase p {
+  font-size: 0.7vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .accomplishments {
+  margin: 1.5vh 0 0 0;
+  font-size: 0.9vw;
+  text-align: left;
+}
+* .container .portfolio .portcontainer .app1 .app1content .accomplishments h3 {
+  font-size: 1vw;
+  margin: -1vh 0 0 0;
+}
+* .container .portfolio .portcontainer .app1 .app1content .accomplishments p {
+  font-size: 0.9vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .links {
+  display: flex;
+  margin: 3vh 0 0 5vw;
+  gap: 6vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .links .linkto {
+  display: flex;
+}
+* .container .portfolio .portcontainer .app1 .app1content .links .linkto p {
+  margin: 0 0 0 0;
+  font-size: 1vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .links .linkto img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* .container .portfolio .portcontainer .app1 .app1content .links .github {
+  display: flex;
+}
+* .container .portfolio .portcontainer .app1 .app1content .links .github img {
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
+}
+* .container .portfolio .portcontainer .app2 {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* .container .portfolio .portcontainer .app2 .app2cover {
+  position: absolute;
+  border-radius: 10px;
+  background-color: #080E2F;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+* .container .portfolio .portcontainer .app2 .app2cover img {
+  width: 17vw;
+  height: 5.5vh;
+}
+* .container .portfolio .portcontainer .app2 .app2cover:hover {
+  opacity: 0;
+  transition: 1s;
+}
+* .container .portfolio .portcontainer .app2 .app2content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100vh;
+  margin-top: 1vh;
+  color: #B7BCD6;
+}
+* .container .portfolio .portcontainer .app2 .app2content .app2description {
+  text-align: center;
+  margin: 6vh 0 0 0;
+  font-size: 1vw;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies {
+  display: flex;
+  flex-direction: column;
+  margin: 2vh 5vw 4vh 0;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies h3 {
+  margin: 0 0 3vh 0;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles {
+  margin: -1.5vh 0 2vh 0;
+  display: flex;
+  gap: 1vw;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle {
+  border: 1px solid #05607D;
+  border-radius: 50%;
+  background-color: #05607D;
+  width: 5vw;
+  height: 5vw;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #react {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #react img {
+  margin: 1vh 0 -1vh 0;
+  width: 2.3vw;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #react p {
+  font-size: 0.6vw;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #express {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #express img {
+  margin: 1vh 0 0 0;
+  width: 1.8vw;
+  height: 1.8vw;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #express p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #firebase {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #firebase img {
+  margin: 1vh 0 -1vh 0;
+  width: 2.2vw;
+  height: 2.2vw;
+}
+* .container .portfolio .portcontainer .app2 .apptechnologies .apptechcircles .apptechcircle #firebase p {
+  font-size: 0.7vw;
+}
+* .container .portfolio .portcontainer .app2 .accomplishments {
+  margin: 2vh 0 0 0;
+  font-size: 0.9vw;
+  line-height: 80%;
+  text-align: left;
+}
+* .container .portfolio .portcontainer .app2 .accomplishments h3 {
+  font-size: 1vw;
+  margin-bottom: -0.1vh;
+}
+* .container .portfolio .portcontainer .app2 .accomplishments p {
+  font-size: 0.9vw;
+}
+* .container .portfolio .portcontainer .app2 .links {
+  display: flex;
+  gap: 6vw;
+  margin: 0 0 7vh 0;
+}
+* .container .portfolio .portcontainer .app2 .links .linkto {
+  display: flex;
+}
+* .container .portfolio .portcontainer .app2 .links .linkto img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* .container .portfolio .portcontainer .app2 .links .github {
+  display: flex;
+}
+* .container .portfolio .portcontainer .app2 .links .github img {
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
+}
+* .container .portfolio .portcontainer .app3 {
+  border: 1px solid white;
+  border-radius: 5px;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+* .container .portfolio .portcontainer .app3 .app3cover {
+  background-color: #080E2F;
+  border-radius: 5px;
+  position: absolute;
+  height: 60vh;
+  width: 25vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+* .container .portfolio .portcontainer .app3 .app3cover img {
+  width: 17vw;
+}
+* .container .portfolio .portcontainer .app3 .app3cover:hover {
+  opacity: 0;
+  transition: 1s;
+}
+* .container .portfolio .portcontainer .app3 .app3content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  height: 100vh;
+  margin: 0 0 0 0;
+  color: #B7BCD6;
+}
+* .container .portfolio .portcontainer .app3 .app3content .app3description {
+  text-align: center;
+  margin: 0 0 0 0;
+  font-size: 1vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies {
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 0;
+  margin: 3vh 1.35vw 0 0;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies h3 {
+  margin: 0 0 2vh 0;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles {
+  display: flex;
+  gap: 1vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle {
+  border: 1px solid #05607D;
+  border-radius: 50%;
+  background-color: #05607D;
+  width: 5vw;
+  height: 5vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma img {
+  width: 1.5vw;
+  height: 1.5vw;
+  margin: 1vh 0 0 0;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #figma p {
+  font-size: 0.6vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix img {
+  margin: 1vh 0 0 0;
+  width: 2vw;
+  height: 2vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #wix p {
+  font-size: 0.6vw;
+  margin-top: 0.8vh;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design img {
+  margin: 1.5vh 0 0 0;
+  width: 1.7vw;
+  height: 1.7vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .apptechnologies .apptechcircles .apptechcircle #design p {
+  font-size: 0.7vw;
+  margin-bottom: 1.5vh;
+}
+* .container .portfolio .portcontainer .app3 .app3content .accomplishments {
+  line-height: 95%;
+  margin: 5vh 0 0 0;
+  font-size: 0.9vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .links {
+  display: flex;
+  gap: 6vw;
+  margin: 3vh 0 0 5vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .links .linkto img {
+  width: 2.5vw;
+  height: 2.5vw;
+}
+* .container .portfolio .portcontainer .app3 .app3content .links .github img {
+  width: 2.7vw;
+  height: 2.7vw;
+  margin: -0.3vh 0 0 0;
+}
+* .experience {
   background-color: #0E4946;
   color: #FFFFFF;
-  height: 120vh;
+  height: 110vh;
+  font-family: "Inter", sans-serif;
 }
-* .container .blog {
+* .experience .experiencetop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1vh 0 0 0;
+}
+* .experience .experiencetop h1 {
+  font-size: 5vw;
+  margin: 4vh 4vw 0 2vw;
+}
+* .experience .experiencetop .navbar {
+  margin: 8vh 5vw 0 0;
+}
+* .experience .experiencetop .navbar li {
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+* .experience .experiencetop .navbar li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* .experience .experiencetop .navbar li #selected {
+  background-color: white;
+  color: #0E4946;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* .experience .experiencecontainer {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 54vh 0 0;
+}
+* .experience .experiencecontainer .places {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2vh 0 0 0;
+}
+* .experience .experiencecontainer .courdevs {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: -0.5vh 0 3vh 0;
+}
+* .experience .experiencecontainer .courdevs img {
+  width: 7vw;
+  height: 7vw;
+}
+* .experience .experiencecontainer .courdevs h3 {
+  font-size: 2.5vh;
+  margin-top: -0.005vh;
+}
+* .experience .experiencecontainer .courdevs p {
+  margin-top: -0.8vw;
+  font-size: 2vh;
+}
+* .experience .experiencecontainer .r1rcm {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2.5vh 0 0 0;
+}
+* .experience .experiencecontainer .r1rcm img {
+  width: 5vw;
+  height: 4vw;
+}
+* .experience .experiencecontainer .r1rcm h3 {
+  font-size: 2.5vh;
+  margin-top: 1.5vh;
+}
+* .experience .experiencecontainer .r1rcm p {
+  margin-top: -0.9vw;
+  font-size: 2vh;
+}
+* .experience .experiencecontainer .slea {
+  width: 15vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5.5vh 0 0 0;
+}
+* .experience .experiencecontainer .slea img {
+  width: 5vw;
+  height: 5vw;
+}
+* .experience .experiencecontainer .slea h3 {
+  font-size: 2.5vh;
+  margin-top: 1vh;
+}
+* .experience .experiencecontainer .slea p {
+  margin-top: -0.9vw;
+  font-size: 2vh;
+}
+* .experience .vl2 {
+  border-left: 2px solid #FFFFFF;
+  height: 75vh;
+  margin: 0 2vw 2vh 2vw;
+}
+* .experience .descriptions .courdevelops h3 {
+  margin-left: 2.3vw;
+  margin-bottom: -0.9vh;
+  font-size: 3vh;
+}
+* .experience .descriptions .courdevelops .descriptionlist ul {
+  list-style: none;
+  margin-bottom: 5vh;
+}
+* .experience .descriptions .courdevelops .descriptionlist ul li {
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+* .experience .descriptions .r1description {
+  margin: 7.5vh 0 0 0;
+}
+* .experience .descriptions .r1description h3 {
+  margin-left: 2.2vw;
+  margin-bottom: -0.9vh;
+  font-size: 3vh;
+}
+* .experience .descriptions .r1description .descriptionlist ul {
+  list-style: none;
+  margin-bottom: 5vh;
+}
+* .experience .descriptions .r1description .descriptionlist ul li {
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+* .experience .descriptions .sleadescription {
+  margin-top: 6vh;
+}
+* .experience .descriptions .sleadescription h3 {
+  margin-left: 2.35vw;
+  margin-bottom: -0.9vh;
+  font-size: 3vh;
+}
+* .experience .descriptions .sleadescription .descriptionlist ul {
+  list-style: none;
+}
+* .experience .descriptions .sleadescription .descriptionlist ul li {
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+* .blog {
   background-color: #146166;
   color: #FFFFFF;
   height: 120vh;
+  font-family: "Inter", sans-serif;
 }
-* .container .contact {
+* .blog .blogtop {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 1vh 0 0 0;
+}
+* .blog .blogtop h1 {
+  font-size: 5vw;
+  margin: 4vh 4vw 0 2vw;
+}
+* .blog .blogtop .navbar {
+  margin: 8vh 5vw 0 0;
+}
+* .blog .blogtop .navbar li {
+  display: inline;
+  padding: 0 1vw 0 0;
+  font-size: 1.2vw;
+  font-weight: bold;
+}
+* .blog .blogtop .navbar li a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+* .blog .blogtop .navbar li #selected {
+  background-color: white;
+  color: #146166;
+  border-radius: 5px;
+  padding: 0.4vw;
+}
+* .contact {
   background-color: #080E2F;
   color: #FFFFFF;
   height: 100vh;

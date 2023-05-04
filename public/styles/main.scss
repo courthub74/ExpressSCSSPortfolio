@@ -23,6 +23,8 @@ $thirdblue: rgb(85, 85, 255);
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
     .container {
+
+        // HOME SECTION
         .home {
             background-color: $mainblue;
             color: $skillswhite;
@@ -61,6 +63,8 @@ $thirdblue: rgb(85, 85, 255);
                 }
             }
         }
+
+        // SKILLS SECTION
         .skills {
             background-color: $skillsteal;
             color: $skillswhite;
@@ -352,6 +356,8 @@ $thirdblue: rgb(85, 85, 255);
                     }
                 }
         }
+
+        // ABOUT SECTION
         .about {
             background-color: $aboutgreen;
             color: $skillswhite;
@@ -431,25 +437,710 @@ $thirdblue: rgb(85, 85, 255);
                 } 
             }
         }
+
+        // PORTFOLIO SECTION
         .portfolio {
             background-color: $mainblue;
             color: $skillswhite;
-            height: 120vh;
+            height: 110vh;
+            font-family: 'Inter', sans-serif;
+            .portfoliotop {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+                padding: 1vh 0 0 0;
+                h1 {
+                    font-size: 5vw;
+                    margin: 4vh 4vw 0 2vw;
+                }
+                .navbar {
+                    ul {
+                        margin: 8vh 5vw 0 0;
+                        li {
+                            display: inline;
+                            padding: 0 1vw 0 0;
+                            font-size: 1.2vw;
+                            font-weight: bold;
+                            a {
+                                cursor: pointer;
+                                text-decoration: none;
+                                color: $skillswhite;
+                            }
+                            #selected {
+                                background-color: white;
+                                color: $mainblue;
+                                border-radius: 5px;
+                                padding: .4vw;
+                            }
+                        }
+                    }
+                }
+            }
+            .portcontainer {
+                display: flex;
+                flex-direction: column;
+                .appcontainer {
+                    display: flex;
+                    margin: 10vh 0 0 7vw;
+                    gap: 5vw;
+                }
+                // First App
+                .app1 {
+                    border: 1px solid white;
+                    border-radius: 5px;
+                    height: 60vh;
+                    width: 25vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .app1cover {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        text-align: center;
+                        border-radius: 10px;
+                        height: 60vh;
+                        width: 25vw;
+                        position: absolute;
+                        cursor: pointer;
+                        background-color: $mainblue;
+                        img {
+                            width: 14vw;
+                            height: 14vw;
+                        }
+                        p {
+                            color: white;
+                            font-size: 3.5vh;
+                            font-family: 'Julius Sans One', sans-serif;
+                            // text-shadow: 10px 10px 10px whitesmoke;
+                        }
+                    }
+                    .app1cover:hover {
+                        opacity: 0;
+                        transition: 1s;
+                    }
+                    .app1content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px;
+                        height: 100vh;
+                        margin-top: 8vh;
+                        color: $hoverfonts;
+                        .app1description {
+                            text-align: left;
+                            font-size: 1vw;
+                            width: 85%;
+                            margin: 0 0 0 -.8vw;
+                        }
+                        .apptechnologies {
+                            display: flex;
+                            flex-direction: column;
+                            margin: 5vh 4.5vw 3vh 0;
+                            gap: 2vh;
+                            h3 {
+                                margin: 0 0 1vh 0;
+                            }
+                            .apptechcircles {
+                                margin: -1.5vh 0 2vh 0;
+                                display: flex;
+                                gap: 1vw;
+                                .apptechcircle {
+                                    border: 1px solid $techcirclegreen;
+                                    border-radius: 50%;
+                                    background-color: $techcirclegreen;
+                                    width: 5vw;
+                                    height: 5vw;
+                                    #react {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // background-color: yellow;
+                                        height: 100%;
+                                        img {
+                                            margin: 0 0 0 0;
+                                            width: 2.3vw;
+                                        }
+                                        p {
+                                            font-size: .6vw;
+                                        }
+                                    }
+                                    #express {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            margin: 1vh 0 0 0;
+                                            width: 1.8vw;
+                                            height: 1.8vw;
+                                        }
+                                        p {
+                                            font-size: .6vw;
+                                            margin-top: .8vh;
+                                        }
+                                    }
+                                    #firebase {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            margin: 1vh 0 -1vh 0;
+                                            width: 2.2vw;
+                                            height: 2.2vw;
+                                        }
+                                        p {
+                                            font-size: .7vw;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .accomplishments {
+                            margin: 1.5vh 0 0 0;
+                            font-size: .9vw;
+                            // line-height: 80%;
+                            // background-color: #146166;
+                            text-align: left;
+                            h3 {
+                                font-size: 1vw;
+                                margin: -1vh 0 0 0;
+                            }
+                            p {
+                                font-size: .9vw;
+                            }
+                        }
+                        .links {
+                            display: flex;
+                            margin: 3vh 0 0 5vw;
+                            gap: 6vw;
+                            .linkto {
+                                display: flex;
+                                p {
+                                    margin: 0 0 0 0;
+                                    font-size: 1vw;
+                                }
+                                img {
+                                    width: 2.5vw;
+                                    height: 2.5vw;
+                                }
+                            }
+                            .github {
+                                display: flex;
+                                img {
+                                    width: 2.7vw;
+                                    height: 2.7vw;
+                                    margin: -.3vh 0 0 0;
+                                }
+                            }
+                        }
+                    }
+                }
+                .app2 {
+                    border: 1px solid white;
+                    border-radius: 5px;
+                    height: 60vh;
+                    width: 25vw;
+                    // animation-name: moveInCenter;
+                    // animation-duration: 1.3s;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .app2cover {
+                        position: absolute;
+                        border-radius: 10px;
+                        background-color: $mainblue;
+                        height: 60vh;
+                        width: 25vw;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        img {
+                            width: 17vw;
+                            height: 5.5vh;
+                            // box-shadow: 10px 10px 10px green;
+                        }
+                    }
+                    .app2cover:hover {
+                        opacity: 0;
+                        transition: 1s;
+                    }
+                    .app2content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px;
+                        height: 100vh;
+                        margin-top: 1vh;
+                        color: $hoverfonts;
+                        .app2description {
+                            text-align: center;
+                            // font-weight: bold;
+                            margin: 6vh 0 0 0;
+                            font-size: 1vw;
+                        }
+                    }
+                    .apptechnologies {
+                        display: flex;
+                        flex-direction: column;
+                        margin: 2vh 5vw 4vh 0;
+                        // margin: 2vh 4.5vw 3vh 0;
+                        h3 {
+                            margin: 0 0 3vh 0;
+                        }
+                        .apptechcircles {
+                            margin: -1.5vh 0 2vh 0;
+                            display: flex;
+                            gap: 1vw;
+                            // each tech circle
+                            .apptechcircle {
+                                border: 1px solid $techcirclegreen;
+                                border-radius: 50%;
+                                background-color: $techcirclegreen;
+                                width: 5vw;
+                                height: 5vw;
+                                #react {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    // background-color: yellow;
+                                    height: 100%;
+                                    img {
+                                        margin: 1vh 0 -1vh 0;
+                                        width: 2.3vw;
+                                    }
+                                    p {
+                                        font-size: .6vw;
+                                    }
+                                }
+                                #express {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: 100%;
+                                    img {
+                                        margin: 1vh 0 0 0;
+                                        width: 1.8vw;
+                                        height: 1.8vw;
+                                    }
+                                    p {
+                                        font-size: .6vw;
+                                        margin-top: .8vh;
+                                    }
+                                }
+                                #firebase {
+                                    display: flex;
+                                    flex-direction: column;
+                                    justify-content: center;
+                                    align-items: center;
+                                    height: 100%;
+                                    img {
+                                        margin: 1vh 0 -1vh 0;
+                                        width: 2.2vw;
+                                        height: 2.2vw;
+                                    }
+                                    p {
+                                        font-size: .7vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .accomplishments {
+                        margin: 2vh 0 0 0;
+                        font-size: .9vw;
+                        line-height: 80%;
+                        text-align: left;
+                        h3 {
+                            font-size: 1vw;
+                            margin-bottom: -.1vh;
+                        }
+                        p {
+                            font-size: .9vw;
+                        }
+                    }
+                    .links {
+                        display: flex;
+                        gap: 6vw;
+                        margin: 0 0 7vh 0;
+                        .linkto {
+                            display: flex;
+                            img {
+                                width: 2.5vw;
+                                height: 2.5vw;
+                            }
+                        }
+                        .github {
+                            display: flex;
+                            img {
+                                width: 2.7vw;
+                                height: 2.7vw;
+                                margin: -.3vh  0 0 0;
+                            }
+                        }
+                    }
+                }
+                .app3 {
+                    border: 1px solid white;
+                    border-radius: 5px;
+                    height: 60vh;
+                    width: 25vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    flex-direction: column;
+                    .app3cover {
+                        background-color: $mainblue;
+                        border-radius: 5px;
+                        position: absolute;
+                        height: 60vh;
+                        width: 25vw;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        align-items: center;
+                        cursor: pointer;
+                        img {
+                            width: 17vw;
+                        }
+                    }
+                    .app3cover:hover {
+                        opacity: 0;
+                        transition: 1s;
+                    }
+                    .app3content {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 10px;
+                        height: 100vh;
+                        margin: 0 0 0 0;
+                        color: $hoverfonts;
+                        .app3description {
+                            text-align: center;
+                            margin: 0 0 0 0;
+                            font-size: 1vw;
+                        }
+                        .apptechnologies {
+                            display: flex;
+                            flex-direction: column;
+                            margin: 0 0 0 0;
+                            margin: 3vh 1.35vw 0 0;
+                            h3 {
+                                margin: 0 0 2vh 0;
+                            }
+                            .apptechcircles {
+                                display: flex;
+                                gap: 1vw;
+                                .apptechcircle {
+                                    border: 1px solid $techcirclegreen;
+                                    border-radius: 50%;
+                                    background-color: $techcirclegreen;
+                                    width: 5vw;
+                                    height: 5vw;
+                                    #figma {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        // background-color: yellow;
+                                        height: 100%;
+                                        img {
+                                            width: 1.5vw;
+                                            height: 1.5vw;
+                                            margin: 1vh 0 0 0;
+                                        }
+                                        p {
+                                            font-size: .6vw;
+                                        }
+                                    }
+                                    #wix {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            margin: 1vh 0 0 0;
+                                            width: 2vw;
+                                            height: 2vw;
+                                        }
+                                        p {
+                                            font-size: .6vw;
+                                            margin-top: .8vh;
+                                        }
+                                    }
+                                    #design {
+                                        display: flex;
+                                        flex-direction: column;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            margin: 1.5vh 0 0 0;
+                                            width: 1.7vw;
+                                            height: 1.7vw;
+                                        }
+                                        p {
+                                            font-size: .7vw;
+                                            margin-bottom: 1.5vh;
+                                        }
+                                    }
+                                } 
+                            }
+                        }
+                        .accomplishments {
+                            line-height: 95%;
+                            margin: 5vh 0 0 0;
+                            font-size: .9vw;
+                        }
+                        .links {
+                            display: flex;
+                            gap: 6vw;
+                            margin: 3vh 0 0 5vw;
+                            .linkto {
+                                img {
+                                    width: 2.5vw;
+                                    height: 2.5vw;
+                                }
+                            }
+                            .github {
+                                img {
+                                    width: 2.7vw;
+                                    height: 2.7vw;
+                                    margin: -.3vh 0 0 0;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
-        .experience {
-            background-color: $aboutgreen;
-            color: $skillswhite;
-            height: 120vh;
+    }
+
+    // EXPERIENCE SECTION
+    .experience {
+        background-color: $aboutgreen;
+        color: $skillswhite;
+        height: 110vh;
+        font-family: 'Inter', sans-serif;
+        .experiencetop {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            padding: 1vh 0 0 0;
+            h1 {
+                font-size: 5vw;
+                margin: 4vh 4vw 0 2vw;
+            }
+            .navbar {
+                margin: 8vh 5vw 0 0;
+                li {
+                    display: inline;
+                    padding: 0 1vw 0 0;
+                    font-size: 1.2vw;
+                    font-weight: bold;
+                    a {
+                        cursor: pointer;
+                        text-decoration: none;
+                        color: $skillswhite;
+                    }
+                    #selected {
+                        background-color: white;
+                        color: $aboutgreen;
+                        border-radius: 5px;
+                        padding: .4vw;
+                    }
+                } 
+            }
         }
-        .blog {
-            background-color: $skillsteal;
-            color: $skillswhite;
-            height: 120vh;
+        .experiencecontainer {
+            display: flex;
+            justify-content: center;
+            margin: 5vh 54vh 0 0;
+            .places {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 2vh 0 0 0;
+            }
+            .courdevs {
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: -.5vh 0 3vh 0;
+                // background-color: yellow;
+                img {
+                    width: 7vw;
+                    height: 7vw;
+                    // background-color: yellow;
+                }
+                h3 {
+                    font-size: 2.5vh;
+                    margin-top: -.005vh; 
+                  }
+                  p {
+                      margin-top: -.8vw;
+                      font-size: 2vh;
+                  }
+            }
+            .r1rcm {
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 2.5vh 0 0 0;
+                img {
+                    width: 5vw;
+                    height: 4vw;
+                }
+                h3 {
+                    font-size: 2.5vh; 
+                    margin-top: 1.5vh; 
+                }
+                p {
+                    margin-top: -.9vw;
+                    font-size: 2vh;
+                }
+            }
+            .slea {
+                width: 15vw;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                margin: 5.5vh 0 0 0;
+                img {
+                    width: 5vw;
+                    height: 5vw;
+                }
+                h3 {
+                    font-size: 2.5vh; 
+                    margin-top: 1vh;
+                }
+                p {
+                    margin-top: -.9vw;
+                    font-size: 2vh;
+                }
+            }
         }
-        .contact {
-            background-color: $mainblue;
-            color: $skillswhite;
-            height: 100vh;
+        .vl2 {
+            border-left: 2px solid $skillswhite;
+            height: 75vh;
+            margin: 0 2vw 2vh 2vw;
         }
+        .descriptions {
+            .courdevelops {
+                h3 {
+                    margin-left: 2.3vw;
+                    margin-bottom: -.9vh;
+                    font-size: 3vh;
+                }
+                .descriptionlist {
+                    // background-color: yellowgreen;
+                    ul {
+                        list-style: none;
+                        margin-bottom: 5vh;
+                        li {
+                            font-size: 2vh;
+                            padding: .5vh;
+                        }
+                    }
+                }
+            }
+            .r1description {
+                margin: 7.5vh 0 0 0;
+                h3 {
+                    margin-left: 2.2vw;
+                    margin-bottom: -.9vh;
+                    font-size: 3vh;
+                }
+                .descriptionlist {
+                    // background-color: yellowgreen;
+                    ul {
+                        list-style: none;
+                        margin-bottom: 5vh;
+                        li {
+                            font-size: 2vh;
+                            padding: .5vh;
+                        }
+                    }
+                }
+            }
+            .sleadescription {
+                // background-color: yellowgreen;
+                margin-top: 6vh;
+                h3 {
+                    margin-left: 2.35vw;
+                    margin-bottom: -.9vh;
+                    font-size: 3vh;
+                }
+                .descriptionlist {
+                    // background-color: yellowgreen;
+                    ul {
+                        list-style: none;
+                        li {
+                            font-size: 2vh;
+                            padding: .5vh;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .blog {
+        background-color: $skillsteal;
+        color: $skillswhite;
+        height: 120vh;
+        font-family: 'Inter', sans-serif;
+        .blogtop {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            padding: 1vh 0 0 0;
+            h1 {
+                font-size: 5vw;
+                margin: 4vh 4vw 0 2vw;
+            }
+            .navbar {
+                margin: 8vh 5vw 0 0;
+                li {
+                    display: inline;
+                    padding: 0 1vw 0 0;
+                    font-size: 1.2vw;
+                    font-weight: bold;
+                    a {
+                        cursor: pointer;
+                        text-decoration: none;
+                        color: $skillswhite;
+                    }
+                    #selected {
+                        background-color: white;
+                        color: $skillsteal;
+                        border-radius: 5px;
+                        padding: .4vw;
+                    }
+                } 
+            }
+        }
+    }
+    .contact {
+        background-color: $mainblue;
+        color: $skillswhite;
+        height: 100vh;
     }
 }
