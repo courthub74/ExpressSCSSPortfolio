@@ -1102,6 +1102,7 @@ $thirdblue: rgb(85, 85, 255);
             }
         }
     }
+    // BLOG SECTION
     .blog {
         background-color: $skillsteal;
         color: $skillswhite;
@@ -1171,9 +1172,41 @@ $thirdblue: rgb(85, 85, 255);
             }
         }
     }
+
+    // CONTACT SECTION
     .contact {
         background-color: $mainblue;
         color: $skillswhite;
         height: 100vh;
+        font-family: 'Inter', sans-serif;
+        .contacttop {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row-reverse;
+            padding: 1vh 0 0 0;
+            h1 {
+                font-size: 5vw;
+                margin: 4vh 4vw 0 2vw;
+            }
+            .navbar {
+                margin: 8vh 5vw 0 0;
+                li {
+                    display: inline;
+                    padding: 0 1vw 0 0;
+                    font-size: 1.2vw;
+                    font-weight: bold;
+                    a {
+                        text-decoration: none;
+                        color: $skillswhite;
+                    }
+                }
+                #selected {
+                    background-color: white;
+                    color: $mainblue;
+                    border-radius: 5px;
+                    padding: .4vw;
+                }
+            }
+        }
     }
 }
