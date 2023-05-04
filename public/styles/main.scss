@@ -1137,6 +1137,39 @@ $thirdblue: rgb(85, 85, 255);
                 } 
             }
         }
+        .blogcontainer {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 15vh 0 0 0;
+            // background-color: yellow;
+            .blogoutline {
+                display: flex;
+                gap: 3vw;
+                overflow: hidden;
+                padding: 5vh;
+                width: 80%;
+                margin: 0 0 0 10vw;
+                .blogcircles {
+                    background-color: $mainblue;
+                    border-radius: 50%;
+                    width: 20vw;
+                    height: 20vw;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    box-shadow: 10px 10px 10px $boxshadowcircles;
+                    a {
+                        text-decoration: none;
+                        color: $skillswhite;
+                        display: flex;
+                        flex-direction: column;
+                        align-items: right;
+                        gap: 1vh;
+                    }
+                }
+            }
+        }
     }
     .contact {
         background-color: $mainblue;
