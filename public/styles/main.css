@@ -702,7 +702,7 @@
 * .container .portfolio .portcontainer .app2 .apptechnologies {
   display: flex;
   flex-direction: column;
-  margin: 5vh 4.5vw 3vh 0;
+  margin: 5vh 4.5vw 1vh 0;
   gap: 2vh;
 }
 * .container .portfolio .portcontainer .app2 .apptechnologies h3 {
