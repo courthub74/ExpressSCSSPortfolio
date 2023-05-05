@@ -17,9 +17,12 @@
 * .container .home .tophome .logo img {
   width: 10vw;
   height: 10vw;
+  padding: 1vw;
+  margin: 1vh 0 0 3vw;
 }
 * .container .home .tophome .navbar ul {
-  margin: 8vh 5vw 0 0;
+  text-align: center;
+  margin: 8vh 9vw 0 0;
 }
 * .container .home .tophome .navbar ul li {
   display: inline;
@@ -37,6 +40,64 @@
   color: #080E2F;
   border-radius: 5px;
   padding: 0.4vw;
+}
+* .container .home .bothome .grid-container {
+  display: grid;
+  margin: 0 10vw 0 0;
+}
+* .container .home .bothome .grid-container .header {
+  text-align: center;
+  grid-column: 1;
+  margin: 17vh 0 0 12vw;
+}
+* .container .home .bothome .grid-container .header #header {
+  font-size: 2vw;
+  font-weight: bold;
+  margin: 2vh 0 1vh 0;
+}
+* .container .home .bothome .grid-container .header #para {
+  font-size: 1.2vw;
+}
+* .container .home .bothome .grid-container .socials {
+  grid-column: 1;
+  grid-row: 3;
+  display: flex;
+  align-items: center;
+  margin: -25vh 0 0 17vw;
+}
+* .container .home .bothome .grid-container .socials a #github {
+  width: 3vw;
+  height: 3vw;
+}
+* .container .home .bothome .grid-container .socials a #linkedin {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 1.5vw;
+}
+* .container .home .bothome .grid-container .socials a #twitter {
+  width: 4vw;
+  height: 4vw;
+  margin: 0 0 0 1vw;
+}
+* .container .home .bothome .grid-container .socials a #instagram {
+  width: 4.6vw;
+  height: 4.6vw;
+  margin: 0 0 0 0.5vw;
+}
+* .container .home .bothome .grid-container .socials a #facebook {
+  width: 3vw;
+  height: 3vw;
+  margin: 0 0 0 1vw;
+}
+* .container .home .bothome .grid-container .photo {
+  grid-column: 2;
+  grid-row: 1/span 3;
+}
+* .container .home .bothome .grid-container .photo img {
+  border-radius: 50%;
+  width: 27vw;
+  height: 27vw;
+  margin: -1vh 0 0 14vw;
 }
 * .container .skills {
   background-color: #146166;
