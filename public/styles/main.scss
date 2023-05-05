@@ -561,6 +561,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
+                    box-shadow: 10px 10px 20px black;
                     .app1cover {
                         display: flex;
                         flex-direction: column;
@@ -688,6 +689,7 @@ $thirdblue: rgb(85, 85, 255);
                             display: flex;
                             margin: 3vh 0 0 5vw;
                             gap: 6vw;
+                            // z-index: 1;
                             .linkto {
                                 display: flex;
                                 p {
@@ -699,6 +701,11 @@ $thirdblue: rgb(85, 85, 255);
                                     height: 2.5vw;
                                 }
                             }
+                            .linkto:hover {
+                                transition: all .5s ease-in;
+                                color: $skillswhite;
+                                z-index: 1;
+                            }
                             .github {
                                 display: flex;
                                 img {
@@ -706,6 +713,11 @@ $thirdblue: rgb(85, 85, 255);
                                     height: 2.7vw;
                                     margin: -.3vh 0 0 0;
                                 }
+                            }
+                            .github:hover {
+                                transition: all .5s ease-in;
+                                color: $skillswhite;
+                                z-index: 1;
                             }
                         }
                     }
@@ -715,12 +727,11 @@ $thirdblue: rgb(85, 85, 255);
                     border-radius: 5px;
                     height: 60vh;
                     width: 25vw;
-                    // animation-name: moveInCenter;
-                    // animation-duration: 1.3s;
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
+                    box-shadow: 10px 10px 20px black;
                     .app2cover {
                         position: absolute;
                         border-radius: 10px;
@@ -735,7 +746,6 @@ $thirdblue: rgb(85, 85, 255);
                         img {
                             width: 17vw;
                             height: 5.5vh;
-                            // box-shadow: 10px 10px 10px green;
                         }
                     }
                     .app2cover:hover {
@@ -749,20 +759,20 @@ $thirdblue: rgb(85, 85, 255);
                         justify-content: center;
                         border-radius: 10px;
                         height: 100vh;
-                        margin-top: 1vh;
+                        // margin-top: 8vh;
                         color: $hoverfonts;
                         .app2description {
-                            text-align: center;
-                            // font-weight: bold;
-                            margin: 6vh 0 0 0;
+                            text-align: left;
                             font-size: 1vw;
+                            width: 85%;
+                            margin: 7vh 0 0 -.8vw;
                         }
                     }
                     .apptechnologies {
-                        display: flex;
-                        flex-direction: column;
-                        margin: 2vh 5vw 4vh 0;
-                        // margin: 2vh 4.5vw 3vh 0;
+                            display: flex;
+                            flex-direction: column;
+                            margin: 5vh 4.5vw 3vh 0;
+                            gap: 2vh;
                         h3 {
                             margin: 0 0 3vh 0;
                         }
@@ -869,6 +879,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
+                    box-shadow: 10px 10px 20px black;
                     .app3cover {
                         background-color: $mainblue;
                         border-radius: 5px;
