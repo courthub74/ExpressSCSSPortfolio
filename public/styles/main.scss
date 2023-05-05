@@ -561,7 +561,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    box-shadow: 10px 10px 20px black;
+                    box-shadow: 5px 5px 10px black;
                     .app1cover {
                         display: flex;
                         flex-direction: column;
@@ -622,6 +622,7 @@ $thirdblue: rgb(85, 85, 255);
                                     background-color: $techcirclegreen;
                                     width: 5vw;
                                     height: 5vw;
+                                    // box-shadow: 2px 2px 2px black;
                                     #react {
                                         display: flex;
                                         flex-direction: column;
@@ -630,7 +631,7 @@ $thirdblue: rgb(85, 85, 255);
                                         // background-color: yellow;
                                         height: 100%;
                                         img {
-                                            margin: 0 0 0 0;
+                                            margin: .3vh 0 0 0;
                                             width: 2.3vw;
                                         }
                                         p {
@@ -644,7 +645,7 @@ $thirdblue: rgb(85, 85, 255);
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            margin: 1vh 0 0 0;
+                                            margin: .5vh 0 0 0;
                                             width: 1.8vw;
                                             height: 1.8vw;
                                         }
@@ -660,11 +661,12 @@ $thirdblue: rgb(85, 85, 255);
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            margin: 1vh 0 -1vh 0;
+                                            margin: 0 0 0 0;
                                             width: 2.2vw;
                                             height: 2.2vw;
                                         }
                                         p {
+                                            margin: .2vh 0 0 0;
                                             font-size: .7vw;
                                         }
                                     }
@@ -731,7 +733,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    box-shadow: 10px 10px 20px black;
+                    box-shadow: 5px 5px 20px black;
                     .app2cover {
                         position: absolute;
                         border-radius: 10px;
@@ -759,13 +761,13 @@ $thirdblue: rgb(85, 85, 255);
                         justify-content: center;
                         border-radius: 10px;
                         height: 100vh;
-                        // margin-top: 8vh;
+                        margin-top: 5vh;
                         color: $hoverfonts;
                         .app2description {
                             text-align: left;
                             font-size: 1vw;
                             width: 85%;
-                            margin: 7vh 0 0 -.8vw;
+                            margin: 5vh 0 0 -.8vw;
                         }
                     }
                     .apptechnologies {
@@ -774,7 +776,7 @@ $thirdblue: rgb(85, 85, 255);
                             margin: 5vh 4.5vw 3vh 0;
                             gap: 2vh;
                         h3 {
-                            margin: 0 0 3vh 0;
+                            margin: 0 0 1vh 0;
                         }
                         .apptechcircles {
                             margin: -1.5vh 0 2vh 0;
@@ -795,7 +797,7 @@ $thirdblue: rgb(85, 85, 255);
                                     // background-color: yellow;
                                     height: 100%;
                                     img {
-                                        margin: 1vh 0 -1vh 0;
+                                        margin: .3vh 0 0 0;
                                         width: 2.3vw;
                                     }
                                     p {
@@ -809,7 +811,7 @@ $thirdblue: rgb(85, 85, 255);
                                     align-items: center;
                                     height: 100%;
                                     img {
-                                        margin: 1vh 0 0 0;
+                                        margin: .5vh 0 0 0;
                                         width: 1.8vw;
                                         height: 1.8vw;
                                     }
@@ -825,11 +827,12 @@ $thirdblue: rgb(85, 85, 255);
                                     align-items: center;
                                     height: 100%;
                                     img {
-                                        margin: 1vh 0 -1vh 0;
+                                        margin: 0 0 0 0;
                                         width: 2.2vw;
-                                        height: 2.2vw;
+                                        height: 2vw;
                                     }
                                     p {
+                                        margin: .4vh 0 0 0;
                                         font-size: .7vw;
                                     }
                                 }
@@ -837,9 +840,9 @@ $thirdblue: rgb(85, 85, 255);
                         }
                     }
                     .accomplishments {
-                        margin: 2vh 0 0 0;
+                        margin: 0 0 0 0;
                         font-size: .9vw;
-                        line-height: 80%;
+                        // line-height: 80%;
                         text-align: left;
                         h3 {
                             font-size: 1vw;
@@ -852,7 +855,7 @@ $thirdblue: rgb(85, 85, 255);
                     .links {
                         display: flex;
                         gap: 6vw;
-                        margin: 0 0 7vh 0;
+                        margin: 4vh 0 7vh 0;
                         .linkto {
                             display: flex;
                             img {
@@ -879,7 +882,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    box-shadow: 10px 10px 20px black;
+                    box-shadow: 5px 5px 20px black;
                     .app3cover {
                         background-color: $mainblue;
                         border-radius: 5px;
