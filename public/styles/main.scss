@@ -855,7 +855,7 @@ $thirdblue: rgb(85, 85, 255);
                     .links {
                         display: flex;
                         gap: 6vw;
-                        margin: 4vh 0 7vh 0;
+                        margin: 4vh 0 5vh 0;
                         .linkto {
                             display: flex;
                             img {
@@ -909,18 +909,19 @@ $thirdblue: rgb(85, 85, 255);
                         justify-content: center;
                         border-radius: 10px;
                         height: 100vh;
-                        margin: 0 0 0 0;
+                        margin: 4vh 0 0 0;
                         color: $hoverfonts;
                         .app3description {
-                            text-align: center;
-                            margin: 0 0 0 0;
+                            text-align: left;
                             font-size: 1vw;
+                            width: 85%;
+                            margin: 2vh 0 0 -3vw;
                         }
                         .apptechnologies {
                             display: flex;
                             flex-direction: column;
-                            margin: 0 0 0 0;
-                            margin: 3vh 1.35vw 0 0;
+                            // margin: 10vh 0 0 0;
+                            margin: 5vh 1.35vw 0 0;
                             h3 {
                                 margin: 0 0 2vh 0;
                             }
@@ -938,12 +939,11 @@ $thirdblue: rgb(85, 85, 255);
                                         flex-direction: column;
                                         justify-content: center;
                                         align-items: center;
-                                        // background-color: yellow;
                                         height: 100%;
                                         img {
                                             width: 1.5vw;
                                             height: 1.5vw;
-                                            margin: 1vh 0 0 0;
+                                            margin: 0 0 1vh 0;
                                         }
                                         p {
                                             font-size: .6vw;
@@ -956,7 +956,7 @@ $thirdblue: rgb(85, 85, 255);
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            margin: 1vh 0 0 0;
+                                            margin: 0 0 0 0;
                                             width: 2vw;
                                             height: 2vw;
                                         }
@@ -972,27 +972,26 @@ $thirdblue: rgb(85, 85, 255);
                                         align-items: center;
                                         height: 100%;
                                         img {
-                                            margin: 1.5vh 0 0 0;
+                                            margin: 0 0 0 0;
                                             width: 1.7vw;
                                             height: 1.7vw;
                                         }
                                         p {
                                             font-size: .7vw;
-                                            margin-bottom: 1.5vh;
+                                            margin: 1vh 0 0 0;
                                         }
                                     }
                                 } 
                             }
                         }
                         .accomplishments {
-                            line-height: 95%;
                             margin: 5vh 0 0 0;
                             font-size: .9vw;
                         }
                         .links {
                             display: flex;
                             gap: 6vw;
-                            margin: 3vh 0 0 5vw;
+                            margin: 4vh 0 0 5vw;
                             .linkto {
                                 img {
                                     width: 2.5vw;
