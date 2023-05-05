@@ -988,10 +988,8 @@
 }
 * .experience .experiencecontainer .courdevs h3 {
   font-size: 2.5vh;
-  margin-top: -0.005vh;
 }
 * .experience .experiencecontainer .courdevs p {
-  margin-top: -0.8vw;
   font-size: 2vh;
 }
 * .experience .experiencecontainer .r1rcm {
@@ -1010,7 +1008,6 @@
   margin-top: 1.5vh;
 }
 * .experience .experiencecontainer .r1rcm p {
-  margin-top: -0.9vw;
   font-size: 2vh;
 }
 * .experience .experiencecontainer .slea {
@@ -1029,17 +1026,18 @@
   margin-top: 1vh;
 }
 * .experience .experiencecontainer .slea p {
-  margin-top: -0.9vw;
   font-size: 2vh;
 }
 * .experience .vl2 {
   border-left: 2px solid #FFFFFF;
-  height: 75vh;
+  height: 70vh;
   margin: 0 2vw 2vh 2vw;
 }
+* .experience .descriptions .courdevelops {
+  margin: 2.5vh 0 0 0;
+}
 * .experience .descriptions .courdevelops h3 {
-  margin-left: 2.3vw;
-  margin-bottom: -0.9vh;
+  margin: 0 0 1vh 2.3vw;
   font-size: 3vh;
 }
 * .experience .descriptions .courdevelops .descriptionlist ul {
@@ -1051,11 +1049,10 @@
   padding: 0.5vh;
 }
 * .experience .descriptions .r1description {
-  margin: 7.5vh 0 0 0;
+  margin: 0 0 0 0;
 }
 * .experience .descriptions .r1description h3 {
-  margin-left: 2.2vw;
-  margin-bottom: -0.9vh;
+  margin: 0 0 1vh 2.2vw;
   font-size: 3vh;
 }
 * .experience .descriptions .r1description .descriptionlist ul {
@@ -1067,11 +1064,10 @@
   padding: 0.5vh;
 }
 * .experience .descriptions .sleadescription {
-  margin-top: 6vh;
+  margin: 0 0 5vh 0;
 }
 * .experience .descriptions .sleadescription h3 {
-  margin-left: 2.35vw;
-  margin-bottom: -0.9vh;
+  margin: 0 0 1vh 2.35vw;
   font-size: 3vh;
 }
 * .experience .descriptions .sleadescription .descriptionlist ul {

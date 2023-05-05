@@ -1064,19 +1064,15 @@ $thirdblue: rgb(85, 85, 255);
                 flex-direction: column;
                 align-items: center;
                 margin: -.5vh 0 3vh 0;
-                // background-color: yellow;
                 img {
                     width: 7vw;
                     height: 7vw;
-                    // background-color: yellow;
                 }
                 h3 {
                     font-size: 2.5vh;
-                    margin-top: -.005vh; 
                   }
                   p {
-                      margin-top: -.8vw;
-                      font-size: 2vh;
+                    font-size: 2vh;
                   }
             }
             .r1rcm {
@@ -1094,7 +1090,6 @@ $thirdblue: rgb(85, 85, 255);
                     margin-top: 1.5vh; 
                 }
                 p {
-                    margin-top: -.9vw;
                     font-size: 2vh;
                 }
             }
@@ -1113,21 +1108,20 @@ $thirdblue: rgb(85, 85, 255);
                     margin-top: 1vh;
                 }
                 p {
-                    margin-top: -.9vw;
                     font-size: 2vh;
                 }
             }
         }
         .vl2 {
             border-left: 2px solid $skillswhite;
-            height: 75vh;
+            height: 70vh;
             margin: 0 2vw 2vh 2vw;
         }
         .descriptions {
             .courdevelops {
+                margin: 2.5vh 0 0 0;
                 h3 {
-                    margin-left: 2.3vw;
-                    margin-bottom: -.9vh;
+                    margin: 0 0 1vh 2.3vw;
                     font-size: 3vh;
                 }
                 .descriptionlist {
@@ -1143,10 +1137,9 @@ $thirdblue: rgb(85, 85, 255);
                 }
             }
             .r1description {
-                margin: 7.5vh 0 0 0;
+                margin: 0 0 0 0;
                 h3 {
-                    margin-left: 2.2vw;
-                    margin-bottom: -.9vh;
+                    margin: 0 0 1vh 2.2vw;
                     font-size: 3vh;
                 }
                 .descriptionlist {
@@ -1162,11 +1155,9 @@ $thirdblue: rgb(85, 85, 255);
                 }
             }
             .sleadescription {
-                // background-color: yellowgreen;
-                margin-top: 6vh;
+                margin: 0 0 5vh 0;
                 h3 {
-                    margin-left: 2.35vw;
-                    margin-bottom: -.9vh;
+                    margin: 0 0 1vh 2.35vw;
                     font-size: 3vh;
                 }
                 .descriptionlist {
