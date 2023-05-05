@@ -1215,6 +1215,7 @@ $thirdblue: rgb(85, 85, 255);
                 .nameemaildiv {
                     margin: 10vh 0 0 40vh;
                     .name {
+                        margin: 0 0 6.5vh 0;
                         p {
                             font-size: 1.5vw;
                         }
@@ -1286,8 +1287,6 @@ $thirdblue: rgb(85, 85, 255);
                 .messageandsubmitdiv {
                     margin: 10vh 0 0 1vw;
                     .message {
-                        // animation-name: moveInCenter;
-                        // animation-duration: 1s;
                         p {
                             font-size: 1.5vw;
                         }
