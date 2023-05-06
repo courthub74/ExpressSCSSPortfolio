@@ -1312,4 +1312,160 @@
 }
 * .contact footer small .smallprint span #phone {
   margin: 1vh 0 0 0;
+}
+
+@keyframes moveInTop {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateY(-100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateY(100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(-100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(100px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInCenter {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(0px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+@keyframes moveInCenter2 {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(0px);
+  }
+  80% {
+    /* BELOW makes it go extra and bounce back */
+    /* transform: translateX(20px); */
+  }
+  100% {
+    opacity: 0.6;
+    transform: translate(0);
+  }
+}
+@keyframes moveInSmallLeft {
+  0% {
+    opacity: 0;
+    /* translate on the x axis */
+    transform: translateX(-30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+.top {
+  animation-name: moveInTop;
+  animation-duration: 2s;
+}
+
+.center {
+  animation-name: moveInCenter;
+  animation-duration: 2s;
+}
+
+.left {
+  animation-name: moveInLeft;
+  animation-duration: 2s;
+}
+
+.smallleft {
+  animation-name: moveInSmallLeft;
+  animation-duration: 2s;
+}
+
+.right {
+  animation-name: moveInRight;
+  animation-duration: 2s;
+}
+
+.rightone {
+  animation-name: moveInRight;
+  animation-duration: 500ms;
+}
+
+.righttwo {
+  animation-name: moveInRight;
+  animation-duration: 800ms;
+}
+
+.rightthree {
+  animation-name: moveInRight;
+  animation-duration: 1000ms;
+}
+
+.rightfour {
+  animation-name: moveInRight;
+  animation-duration: 1300ms;
+}
+
+.rightfive {
+  animation-name: moveInRight;
+  animation-duration: 1500ms;
+}
+
+.rightsix {
+  animation-name: moveInRight;
+  animation-duration: 2000ms;
 }/*# sourceMappingURL=main.css.map */

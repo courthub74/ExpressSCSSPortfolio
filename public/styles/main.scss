@@ -1434,3 +1434,200 @@ $thirdblue: rgb(85, 85, 255);
         }
     }
 }
+
+
+// KEY FRAMES FOR ANIMATION
+  // STRICTLY THE MOVEMENTS TO 
+    // CREATE THE CLASSES TO BE TOGGLED
+// FROM TOP
+@keyframes moveInTop {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateY(-100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+// FROM BOTTOM
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateY(100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+// FROM LEFT
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(-100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+// FROM RIGHT
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(100px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+// FROM CENTER
+@keyframes moveInCenter {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(0px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+
+// FROM CENTER 2
+@keyframes moveInCenter2 {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(0px);
+    }
+
+    80% {
+        /* BELOW makes it go extra and bounce back */
+        /* transform: translateX(20px); */
+    }
+
+    100% {
+        opacity: .6;
+        transform: translate(0);
+    } 
+}
+
+// FROM SMALL LEFT
+@keyframes moveInSmallLeft {
+    0% {
+        opacity: 0;
+        /* translate on the x axis */
+        transform: translateX(-30px);
+    }
+
+    80% {
+        // opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    } 
+}
+
+
+// These are the classes to be toggled through 'scroll.js'
+.top {
+    animation-name: moveInTop;
+    animation-duration: 2s;
+}
+
+.center {
+    animation-name: moveInCenter;
+    animation-duration: 2s;
+}
+
+.left {
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+}
+
+.smallleft {
+    animation-name: moveInSmallLeft;
+    animation-duration: 2s;
+    // animation-timing-function: 5;
+}
+
+.right {
+    animation-name: moveInRight;
+    animation-duration: 2s;
+}
+
+// For the SKILLS
+
+.rightone {
+    animation-name: moveInRight;
+    animation-duration: 500ms;
+}
+
+.righttwo {
+    animation-name: moveInRight;
+    animation-duration: 800ms;
+}
+
+.rightthree {
+    animation-name: moveInRight;
+    animation-duration: 1000ms;
+}
+
+.rightfour {
+    animation-name: moveInRight;
+    animation-duration: 1300ms;
+}
+
+.rightfive {
+    animation-name: moveInRight;
+    animation-duration: 1500ms;
+}
+
+.rightsix {
+    animation-name: moveInRight;
+    animation-duration: 2000ms;
+}
