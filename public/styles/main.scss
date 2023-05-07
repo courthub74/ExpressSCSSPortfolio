@@ -561,7 +561,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    box-shadow: 5px 5px 10px black;
+                    box-shadow: 5px 5px 10px $boxshadowcircles;
                     .app1cover {
                         display: flex;
                         flex-direction: column;
@@ -733,7 +733,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    box-shadow: 5px 5px 20px black;
+                    box-shadow: 5px 5px 20px $boxshadowcircles;
                     .app2cover {
                         position: absolute;
                         border-radius: 10px;
@@ -882,7 +882,7 @@ $thirdblue: rgb(85, 85, 255);
                     justify-content: center;
                     align-items: center;
                     flex-direction: column;
-                    box-shadow: 5px 5px 20px black;
+                    box-shadow: 5px 5px 20px $boxshadowcircles;
                     .app3cover {
                         background-color: $mainblue;
                         border-radius: 5px;
@@ -1280,7 +1280,7 @@ $thirdblue: rgb(85, 85, 255);
             }
         }
         .contactcontainer {
-            form {
+            .contactform {
                 display: flex;
                 gap: 7vw;
                 .nameemaildiv {

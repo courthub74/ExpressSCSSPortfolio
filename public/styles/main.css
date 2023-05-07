@@ -495,7 +495,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 5px 5px 10px black;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.521);
 }
 * .container .portfolio .portcontainer .app1 .app1cover {
   display: flex;
@@ -661,7 +661,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 5px 5px 20px black;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.521);
 }
 * .container .portfolio .portcontainer .app2 .app2cover {
   position: absolute;
@@ -807,7 +807,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 5px 5px 20px black;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.521);
 }
 * .container .portfolio .portcontainer .app3 .app3cover {
   background-color: #080E2F;
@@ -1180,20 +1180,20 @@
   border-radius: 5px;
   padding: 0.4vw;
 }
-* .contact .contactcontainer form {
+* .contact .contactcontainer .contactform {
   display: flex;
   gap: 7vw;
 }
-* .contact .contactcontainer form .nameemaildiv {
+* .contact .contactcontainer .contactform .nameemaildiv {
   margin: 10vh 0 0 40vh;
 }
-* .contact .contactcontainer form .nameemaildiv .name {
+* .contact .contactcontainer .contactform .nameemaildiv .name {
   margin: 0 0 6.5vh 0;
 }
-* .contact .contactcontainer form .nameemaildiv .name p {
+* .contact .contactcontainer .contactform .nameemaildiv .name p {
   font-size: 1.5vw;
 }
-* .contact .contactcontainer form .nameemaildiv .name input {
+* .contact .contactcontainer .contactform .nameemaildiv .name input {
   width: 24vw;
   height: 6vh;
   border: none;
@@ -1202,10 +1202,10 @@
   border: 1px solid white;
   color: white;
 }
-* .contact .contactcontainer form .nameemaildiv .email p {
+* .contact .contactcontainer .contactform .nameemaildiv .email p {
   font-size: 1.5vw;
 }
-* .contact .contactcontainer form .nameemaildiv .email input {
+* .contact .contactcontainer .contactform .nameemaildiv .email input {
   width: 24vw;
   height: 6vh;
   border: none;
@@ -1214,51 +1214,51 @@
   border: 1px solid white;
   color: white;
 }
-* .contact .contactcontainer form .nameemaildiv .socials {
+* .contact .contactcontainer .contactform .nameemaildiv .socials {
   display: flex;
   align-items: center;
   justify-content: left;
   margin: 5vh 0 0 2vw;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #github {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #github {
   margin: 0 1vw 0 0;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #github img {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #github img {
   width: 2.8vw;
   height: 2.8vw;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #linkedin {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #linkedin {
   margin: 0 1vw 0 0;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #linkedin img {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #linkedin img {
   width: 3.7vw;
   height: 3.7vw;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #twitter {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #twitter {
   margin: 0 0.5vw 0 -0.4vw;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #twitter img {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #twitter img {
   width: 3.5vw;
   height: 3.5vw;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #instagram {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #instagram {
   margin: 0 0.9vw 0 -0.01vw;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #instagram img {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #instagram img {
   width: 4vw;
   height: 4vw;
 }
-* .contact .contactcontainer form .nameemaildiv .socials #facebook img {
+* .contact .contactcontainer .contactform .nameemaildiv .socials #facebook img {
   width: 2.9vw;
   height: 2.9vw;
 }
-* .contact .contactcontainer form .messageandsubmitdiv {
+* .contact .contactcontainer .contactform .messageandsubmitdiv {
   margin: 10vh 0 0 1vw;
 }
-* .contact .contactcontainer form .messageandsubmitdiv .message p {
+* .contact .contactcontainer .contactform .messageandsubmitdiv .message p {
   font-size: 1.5vw;
 }
-* .contact .contactcontainer form .messageandsubmitdiv .message input {
+* .contact .contactcontainer .contactform .messageandsubmitdiv .message input {
   width: 24vw;
   height: 23vh;
   border: none;
@@ -1268,10 +1268,10 @@
   color: white;
   text-align: center;
 }
-* .contact .contactcontainer form .messageandsubmitdiv .submit {
+* .contact .contactcontainer .contactform .messageandsubmitdiv .submit {
   margin: 6vh 0 0 0;
 }
-* .contact .contactcontainer form .messageandsubmitdiv .submit button {
+* .contact .contactcontainer .contactform .messageandsubmitdiv .submit button {
   width: 100%;
   cursor: pointer;
   height: 5vh;
