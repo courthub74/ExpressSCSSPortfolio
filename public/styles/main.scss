@@ -66,6 +66,9 @@ $thirdblue: rgb(85, 85, 255);
                         }
                     }
                 }
+                .burger {
+                    display: none;
+                }
             }
             .bothome {
                 .grid-container {
@@ -167,6 +170,9 @@ $thirdblue: rgb(85, 85, 255);
                             }
                         }
                     }
+                }
+                .burger {
+                    display: none;
                 }
             }
             .pageskills {
@@ -461,6 +467,9 @@ $thirdblue: rgb(85, 85, 255);
                         }
                     }
                 }
+                .burger {
+                    display: none;
+                }
             }
             .infoblock {
                 display: flex;
@@ -541,6 +550,9 @@ $thirdblue: rgb(85, 85, 255);
                             }
                         }
                     }
+                }
+                .burger {
+                    display: none;
                 }
             }
             .portcontainer {
@@ -1047,6 +1059,9 @@ $thirdblue: rgb(85, 85, 255);
                     }
                 } 
             }
+            .burger {
+                display: none;
+            }
         }
         .experiencecontainer {
             display: flex;
@@ -1208,6 +1223,9 @@ $thirdblue: rgb(85, 85, 255);
                     }
                 } 
             }
+            .burger {
+                display: none;
+            }
         }
         .blogcontainer {
             display: flex;
@@ -1277,6 +1295,9 @@ $thirdblue: rgb(85, 85, 255);
                     border-radius: 5px;
                     padding: .4vw;
                 }
+            }
+            .burger {
+                display: none;
             }
         }
         .contactcontainer {
@@ -1434,6 +1455,9 @@ $thirdblue: rgb(85, 85, 255);
         }
     }
 }
+
+// MOBILE VERSION
+
 
 
 // KEY FRAMES FOR ANIMATION
