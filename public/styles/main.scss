@@ -1457,7 +1457,76 @@ $thirdblue: rgb(85, 85, 255);
 }
 
 // MOBILE VERSION
+@media screen and (max-width: 500px) {
+    * {
+        margin: 0;
+        scroll-behavior: smooth;
+        scroll-snap-type: y mandatory;
+        .container{
 
+            // HOME SECTION MOBILE
+            .home {
+                background-color: $mainblue;
+                color: $skillswhite;
+                height: 52vh;
+                width: 150%;
+                font-family: 'Inter', sans-serif;
+                .tophome {
+                    .logo {
+                        .centers {
+                            width: 30vw;
+                            height: 30vw;
+                            margin: 2vh 0 0 5vw;
+                        }
+                    }
+                    .navbar {
+                        display: none;
+                    }
+                    .burger {
+                        display: block;
+                        margin: 2vh 15vw 0 0;
+                        img {
+                            width: 20vw;
+                            height: 20vw;
+                        }
+                    }
+                }
+            }
+
+            // SKILLS SECTION MOBILE
+            .skills {
+                background-color: $skillsteal;
+                color: $skillswhite;
+                height: 100vh;
+                width: 150%;
+                font-family: 'Inter', sans-serif;
+                .topskills {
+                    display: flex;
+                    justify-content: space-between;
+                    // flex-direction: row-reverse;
+                    padding: 1vh 0 0 0;
+                    h1 {
+                        font-size: 15vw;
+                        margin: 4vh 15vw 0 0;
+                    }
+                    .navbar {
+                        ul {
+                            display: none;
+                        }
+                    }
+                    .burger {
+                        display: block;
+                        margin: 3.5vh 0 0 10vw;
+                        img {
+                            width: 20vw;
+                            height: 20vw;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 // KEY FRAMES FOR ANIMATION

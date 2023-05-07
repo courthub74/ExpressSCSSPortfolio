@@ -1335,6 +1335,63 @@
   margin: 1vh 0 0 0;
 }
 
+@media screen and (max-width: 500px) {
+  * {
+    margin: 0;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+  }
+  * .container .home {
+    background-color: #080E2F;
+    color: #FFFFFF;
+    height: 52vh;
+    width: 150%;
+    font-family: "Inter", sans-serif;
+  }
+  * .container .home .tophome .logo .centers {
+    width: 30vw;
+    height: 30vw;
+    margin: 2vh 0 0 5vw;
+  }
+  * .container .home .tophome .navbar {
+    display: none;
+  }
+  * .container .home .tophome .burger {
+    display: block;
+    margin: 2vh 15vw 0 0;
+  }
+  * .container .home .tophome .burger img {
+    width: 20vw;
+    height: 20vw;
+  }
+  * .container .skills {
+    background-color: #146166;
+    color: #FFFFFF;
+    height: 100vh;
+    width: 150%;
+    font-family: "Inter", sans-serif;
+  }
+  * .container .skills .topskills {
+    display: flex;
+    justify-content: space-between;
+    padding: 1vh 0 0 0;
+  }
+  * .container .skills .topskills h1 {
+    font-size: 15vw;
+    margin: 4vh 15vw 0 0;
+  }
+  * .container .skills .topskills .navbar ul {
+    display: none;
+  }
+  * .container .skills .topskills .burger {
+    display: block;
+    margin: 3.5vh 0 0 10vw;
+  }
+  * .container .skills .topskills .burger img {
+    width: 20vw;
+    height: 20vw;
+  }
+}
 @keyframes moveInTop {
   0% {
     opacity: 0;
