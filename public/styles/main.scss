@@ -1468,10 +1468,11 @@ $thirdblue: rgb(85, 85, 255);
             .home {
                 background-color: $mainblue;
                 color: $skillswhite;
-                height: 52vh;
+                height: 80vh;
                 width: 150%;
                 font-family: 'Inter', sans-serif;
                 .tophome {
+                    padding: 1vh 0 0 0;
                     .logo {
                         .centers {
                             width: 30vw;
@@ -1481,13 +1482,13 @@ $thirdblue: rgb(85, 85, 255);
                     }
                     .mobileheader {
                         text-align: center;
-                        margin: 4vh 0 0 0;
+                        margin: 5.5vh 1vw 0 0;
                         #mobileheader {
-                            font-size: 9vw;
+                            font-size: 8vw;
                             font-weight: bold;
                         }
                         #mobilepara {
-                            font-size: 5vw;
+                            font-size: 6vw;
                         }
                     }
                     .navbar {
@@ -1495,11 +1496,11 @@ $thirdblue: rgb(85, 85, 255);
                     }
                     .burger {
                         display: block;
-                        margin: 4vh 13vw 0 5vw;
+                        margin: 5vh 13vw 0 5vw;
                         cursor: pointer;
                         img {
-                            width: 15vw;
-                            height: 15vw;
+                            width: 12vw;
+                            height: 12vw;
                         }
                     }
                 }
@@ -1510,6 +1511,13 @@ $thirdblue: rgb(85, 85, 255);
                         }
                         .socials {
                             display: none;
+                        }
+                        .photo {
+                            margin: 10vw 10vw 0 0;
+                            img {
+                                width: 95vw;
+                                height: 95vw;
+                            }
                         }
                     }
                 }

@@ -1344,9 +1344,12 @@
   * .container .home {
     background-color: #080E2F;
     color: #FFFFFF;
-    height: 52vh;
+    height: 80vh;
     width: 150%;
     font-family: "Inter", sans-serif;
+  }
+  * .container .home .tophome {
+    padding: 1vh 0 0 0;
   }
   * .container .home .tophome .logo .centers {
     width: 30vw;
@@ -1355,32 +1358,39 @@
   }
   * .container .home .tophome .mobileheader {
     text-align: center;
-    margin: 4vh 0 0 0;
+    margin: 5.5vh 1vw 0 0;
   }
   * .container .home .tophome .mobileheader #mobileheader {
-    font-size: 9vw;
+    font-size: 8vw;
     font-weight: bold;
   }
   * .container .home .tophome .mobileheader #mobilepara {
-    font-size: 5vw;
+    font-size: 6vw;
   }
   * .container .home .tophome .navbar {
     display: none;
   }
   * .container .home .tophome .burger {
     display: block;
-    margin: 4vh 13vw 0 5vw;
+    margin: 5vh 13vw 0 5vw;
     cursor: pointer;
   }
   * .container .home .tophome .burger img {
-    width: 15vw;
-    height: 15vw;
+    width: 12vw;
+    height: 12vw;
   }
   * .container .home .bothome .grid-container .header {
     display: none;
   }
   * .container .home .bothome .grid-container .socials {
     display: none;
+  }
+  * .container .home .bothome .grid-container .photo {
+    margin: 10vw 10vw 0 0;
+  }
+  * .container .home .bothome .grid-container .photo img {
+    width: 95vw;
+    height: 95vw;
   }
   * .container .skills {
     background-color: #146166;
