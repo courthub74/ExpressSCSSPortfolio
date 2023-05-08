@@ -256,8 +256,6 @@ $thirdblue: rgb(85, 85, 255);
                                             font-size: 1.5vh;
                                             opacity: .6;
                                             margin: .5vh 0 3vh 0;
-                                            // animation-name: moveInCenter2;
-                                            // animation-duration: 5s;
                                         }
                                     }
                                     #js {
@@ -1527,17 +1525,16 @@ $thirdblue: rgb(85, 85, 255);
             .skills {
                 background-color: $skillsteal;
                 color: $skillswhite;
-                height: 100vh;
+                height: 120vh;
                 width: 150%;
                 font-family: 'Inter', sans-serif;
                 .topskills {
                     display: flex;
                     justify-content: space-between;
-                    // flex-direction: row-reverse;
                     padding: 1vh 0 0 0;
                     h1 {
                         font-size: 15vw;
-                        margin: 4vh 15vw 0 0;
+                        margin: 2vh 15vw 0 0;
                     }
                     .navbar {
                         ul {
@@ -1549,8 +1546,81 @@ $thirdblue: rgb(85, 85, 255);
                         margin: 3.5vh 0 0 10vw;
                         cursor: pointer;
                         img {
-                            width: 20vw;
-                            height: 20vw;
+                            width: 12vw;
+                            height: 12vw;
+                        }
+                    }
+                }
+                .pageskills {
+                    .skillslist {
+                        // background-color: yellow;
+                        .skillscontent {
+                            // background-color: green;
+                            margin: 60vh 0 0 36vw;
+                            .list {
+                                width: 72vw;
+                                height: 72vw;
+                                p {
+                                    font-size: 5vw;
+                                }
+                            }
+                        }
+                    }
+                    .vl {
+                        display: none;
+                    }
+                    .skillicons {
+                        margin: -75vh 0 0 0;
+                        // display: none;
+                        .front {
+                            margin: 0 0 0 -138vw;
+                            .icons {
+                                display: flex;
+                                gap: 5vw;
+                                .iconblock {
+                                    width: 20vw;
+                                    height: 20vw;
+                                    #html {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 14vw;
+                                            height: 7vh;
+                                            margin: 0 0 0 .2vw;
+                                        }
+                                        p {
+                                            display: none;
+                                        }
+                                    }
+                                    #css {
+                                        display: flex;
+                                        justify-content: center;
+                                        align-items: center;
+                                        height: 100%;
+                                        img {
+                                            width: 14vw;
+                                            height: 7vh;
+                                            margin: 0 0 0 .2vw;
+                                        }
+                                        p {
+                                            display: none;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .back {
+                            margin: 2vh 0 0 -138vw;
+                            .icons {
+                               display: flex;
+                               gap: 5vw;
+                               .iconblock {
+                                    width: 20vw;
+                                    height: 20vw; 
+                                }
+                            }
                         }
                     }
                 }

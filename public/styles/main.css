@@ -1395,7 +1395,7 @@
   * .container .skills {
     background-color: #146166;
     color: #FFFFFF;
-    height: 100vh;
+    height: 120vh;
     width: 150%;
     font-family: "Inter", sans-serif;
   }
@@ -1406,7 +1406,7 @@
   }
   * .container .skills .topskills h1 {
     font-size: 15vw;
-    margin: 4vh 15vw 0 0;
+    margin: 2vh 15vw 0 0;
   }
   * .container .skills .topskills .navbar ul {
     display: none;
@@ -1417,6 +1417,72 @@
     cursor: pointer;
   }
   * .container .skills .topskills .burger img {
+    width: 12vw;
+    height: 12vw;
+  }
+  * .container .skills .pageskills .skillslist .skillscontent {
+    margin: 60vh 0 0 36vw;
+  }
+  * .container .skills .pageskills .skillslist .skillscontent .list {
+    width: 72vw;
+    height: 72vw;
+  }
+  * .container .skills .pageskills .skillslist .skillscontent .list p {
+    font-size: 5vw;
+  }
+  * .container .skills .pageskills .vl {
+    display: none;
+  }
+  * .container .skills .pageskills .skillicons {
+    margin: -75vh 0 0 0;
+  }
+  * .container .skills .pageskills .skillicons .front {
+    margin: 0 0 0 -138vw;
+  }
+  * .container .skills .pageskills .skillicons .front .icons {
+    display: flex;
+    gap: 5vw;
+  }
+  * .container .skills .pageskills .skillicons .front .icons .iconblock {
+    width: 20vw;
+    height: 20vw;
+  }
+  * .container .skills .pageskills .skillicons .front .icons .iconblock #html {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  * .container .skills .pageskills .skillicons .front .icons .iconblock #html img {
+    width: 14vw;
+    height: 7vh;
+    margin: 0 0 0 0.2vw;
+  }
+  * .container .skills .pageskills .skillicons .front .icons .iconblock #html p {
+    display: none;
+  }
+  * .container .skills .pageskills .skillicons .front .icons .iconblock #css {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  * .container .skills .pageskills .skillicons .front .icons .iconblock #css img {
+    width: 14vw;
+    height: 7vh;
+    margin: 0 0 0 0.2vw;
+  }
+  * .container .skills .pageskills .skillicons .front .icons .iconblock #css p {
+    display: none;
+  }
+  * .container .skills .pageskills .skillicons .back {
+    margin: 2vh 0 0 -138vw;
+  }
+  * .container .skills .pageskills .skillicons .back .icons {
+    display: flex;
+    gap: 5vw;
+  }
+  * .container .skills .pageskills .skillicons .back .icons .iconblock {
     width: 20vw;
     height: 20vw;
   }
